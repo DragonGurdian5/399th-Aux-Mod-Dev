@@ -3,7 +3,7 @@ class CfgPatches
 	class ZDN_Uniforms
 	{
 		author="DragonGurdian5, Zackary29, and Krevan";
-		name="399 Auxiliary [SST]";
+		name="399th Auxiliary [SST]";
 		requiredAddons[]=
 		{
 			"A3_Characters_F",
@@ -20,6 +20,7 @@ class CfgPatches
 		};
 	};
 };
+
 class cfgFactionClasses
 {
 	class Federation
@@ -30,6 +31,7 @@ class cfgFactionClasses
 		priority=1;
 	};
 };
+
 class CfgVehicles
 {
 	class JMSST_troops_MIbody_6th_F;
@@ -43,7 +45,7 @@ class CfgVehicles
 			"Uniforms\data\bags\kitbag_med_co.paa"
 		};
 		scope=2;
-		displayName="[399 MI] Medic Kitbag";
+		displayName="[399th MI] Medic Kitbag";
 	};
 	class ZDN_B_Kitbag_Eng: B_Kitbag_Base
 	{
@@ -53,7 +55,7 @@ class CfgVehicles
 			"Uniforms\data\bags\kitbag_eng_co.paa"
 		};
 		scope=2;
-		displayName="[399 MI] Engineer Kitbag";
+		displayName="[399th MI] Engineer Kitbag";
 		containerClass="Supply1200";
 	};
 	class ZDN_B_Kitbag_Inf: B_Kitbag_Base
@@ -64,7 +66,7 @@ class CfgVehicles
 			"Uniforms\data\bags\kitbag_inf_co.paa"
 		};
 		scope=2;
-		displayName="[399 MI] Infantry Kitbag";
+		displayName="[399th MI] Infantry Kitbag";
 	};
 	class ZDN_B_Kitbag_Cmd: B_Kitbag_Base
 	{
@@ -74,7 +76,7 @@ class CfgVehicles
 			"Uniforms\data\bags\kitbag_cmd_co.paa"
 		};
 		scope=2;
-		displayName="[399 MI] Command Kitbag";
+		displayName="[399th MI] Command Kitbag";
 	};
 	class ZDN_B_Kitbag_FedNet: B_Kitbag_Base
 	{
@@ -84,12 +86,12 @@ class CfgVehicles
 			"Uniforms\data\bags\kitbag_fednet_co.paa"
 		};
 		scope=2;
-		displayName="[399 MI] FedNet Kitbag";
+		displayName="[399th MI] FedNet Kitbag";
 	};
 	class ZDN_FleetBag: B_Kitbag_Base
 	{
 		picture="\JMSST_troops\data\ico\ico_b_c_kitbag_black.paa";
-		displayName="[399 MI] Fleet Bag";
+		displayName="[399th MI] Fleet Bag";
 		model="";
 	}
 
@@ -173,147 +175,6 @@ class CfgVehicles
 			"JMSST_troops\data\ranks\pogon_black_co"
 		};
 	};
-
-	class ZDN_399_Uniform_Zaigan_F: JMSST_troops_MIbody_6th_F
-	{
-		author="JMax";
-		scope=2;
-		modelSides[]={6};
-		model="\JMSST_troops\MIbody.p3d";
-		nakedUniform="U_BasicBody";
-		hiddenSelections[]=
-		{
-			"Camo1",
-			"Camo2",
-			"Camo3"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"Uniforms\data\Uniform\ZDN_399_Uniform_Base_Zaigan_co.paa",
-			"Uniforms\data\badges\ZDN_399thMiBadge.paa",
-			"JMSST_troops\data\ranks\pogon_lt_co"
-		};
-	};
-	class ZDN_399_Uniform_Dragon_F: JMSST_troops_MIbody_6th_F
-	{
-		author="JMax";
-		scope=2;
-		modelSides[]={6};
-		model="\JMSST_troops\MIbody.p3d";
-		nakedUniform="U_BasicBody";
-		hiddenSelections[]=
-		{
-			"Camo1",
-			"Camo2",
-			"Camo3"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"Uniforms\data\Uniform\ZDN_399_Uniform_Base_Dragon_co.paa",
-			"Uniforms\data\badges\ZDN_399thMiBadge.paa",
-			"JMSST_troops\data\ranks\pogon_serg_co"
-		};
-	};
-    class ZDN_399_Uniform_Benji_F: JMSST_troops_MIbody_6th_F
-	{
-		author="JMax";
-		scope=2;
-		modelSides[]={6};
-		model="\JMSST_troops\MIbody.p3d";
-		nakedUniform="U_BasicBody";
-		hiddenSelections[]=
-		{
-			"Camo1",
-			"Camo2",
-			"Camo3"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"Uniforms\data\Uniform\ZDN_399_Uniform_Base_Benji_co.paa",
-			"Uniforms\data\badges\ZDN_399thEngBadge.paa",
-			"JMSST_troops\data\ranks\pogon_serg_co"
-		};
-	};
-    class ZDN_399_Uniform_Wurmstein_F: JMSST_troops_MIbody_6th_F
-	{
-		author="JMax";
-		scope=2;
-		modelSides[]={6};
-		model="\JMSST_troops\MIbody.p3d";
-		nakedUniform="U_BasicBody";
-		hiddenSelections[]=
-		{
-			"Camo1",
-			"Camo2",
-			"Camo3"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"Uniforms\data\Uniform\ZDN_399_Uniform_Base_Wurmstein_co.paa",
-			"Uniforms\data\badges\ZDN_399thMiBadge.paa",
-			"JMSST_troops\data\ranks\pogon_cp_co"
-		};
-	};
-    class ZDN_399_Uniform_Drakshaw_F: JMSST_troops_MIbody_6th_F
-	{
-		author="JMax";
-		scope=2;
-		modelSides[]={6};
-		model="\JMSST_troops\MIbody.p3d";
-		nakedUniform="U_BasicBody";
-		hiddenSelections[]=
-		{
-			"Camo1",
-			"Camo2",
-			"Camo3"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"Uniforms\data\Uniform\ZDN_399_Uniform_Base_Drakshaw_co.paa",
-			"Uniforms\data\badges\ZDN_399thMedBadge.paa",
-			"JMSST_troops\data\ranks\pogon_CP_co"
-		};
-	};
-    class ZDN_399_Uniform_Tac_F: JMSST_troops_MIbody_6th_F
-    {
-        author="JMax";
-        scope=2;
-        modelSides[]={6};
-        model="\JMSST_troops\MIbody.p3d";
-        nakedUniform="U_BasicBody";
-        hiddenSelections[]=
-        {
-            "Camo1",
-            "Camo2",
-            "Camo3"
-        };
-        hiddenSelectionsTextures[]=
-        {
-            "Uniforms\data\Uniform\ZDN_399_Uniform_Base_Tac_co.paa",
-            "Uniforms\data\badges\ZDN_399thMiBadge.paa",
-            "JMSST_troops\data\ranks\pogon_cp_co"
-        };
-    };
-    class ZDN_399_Uniform_Dolphin_F: JMSST_troops_MIbody_6th_F
-    {
-        author="JMax";
-        scope=2;
-        modelSides[]={6};
-        model="\JMSST_troops\MIbody.p3d";
-        nakedUniform="U_BasicBody";
-        hiddenSelections[]=
-        {
-            "Camo1",
-            "Camo2",
-            "Camo3"
-        };
-        hiddenSelectionsTextures[]=
-        {
-            "Uniforms\data\Uniform\ZDN_399_Uniform_Base_Dolphin_co",
-            "Uniforms\data\badges\ZDN_399thMedBadge.paa",
-            "JMSST_troops\data\ranks\pogon_cp_co.paa"
-        };
-    };
 };
 
 class CfgWeapons
@@ -335,7 +196,7 @@ class CfgWeapons
 	{
 		author="JMax";
 		scope=2;
-		displayName="[399 MI] Infantry Uniform";
+		displayName="[399th MI] Infantry Uniform";
 		picture="\JMSST_troops\data\ico\ico_u_jacket_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		hiddenSelections[]=
@@ -363,7 +224,7 @@ class CfgWeapons
 	{
 		author="JMax";
 		scope=2;
-		displayName="[399 MI] Fleet Uniform";
+		displayName="[399th MI] Fleet Uniform";
 		picture="\JMSST_troops\data\ico\ico_u_jacketFleet_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		hiddenSelections[]=
@@ -391,7 +252,7 @@ class CfgWeapons
 	{
 		author="JMax";
 		scope=2;
-		displayName="[399 MI] Engineer Uniform";
+		displayName="[399th MI] Engineer Uniform";
 		picture="\JMSST_troops\data\ico\ico_u_jacket_eng_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		hiddenSelections[]=
@@ -419,7 +280,7 @@ class CfgWeapons
 	{
 		author="JMax";
 		scope=2;
-		displayName="[399 MI] Medic Uniform";
+		displayName="[399th MI] Medic Uniform";
 		picture="\JMSST_troops\data\ico\ico_u_jacket_med_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		hiddenSelections[]=
@@ -444,205 +305,6 @@ class CfgWeapons
 		};
 	};
 
-	// ###################### Customs ######################
-
-	class ZDN_399_Uniform_Zaigan_Base: JMSST_troops_MIbody_6th_F_CombatUniform
-	{
-		author="JMax";
-		scope=2;
-		displayName="[399 MI] Infantry Uniform (Zaigan)";
-		picture="\JMSST_troops\data\ico\ico_u_jacket_ca.paa";
-		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
-		hiddenSelections[]=
-		{
-			"Camo1",
-			"Camo2",
-			"Camo3"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"Uniforms\data\Uniform\ZDN_399_Uniform_Base_Zaigan_co",
-			"Uniforms\data\badges\ZDN_399thMiBadge.paa",
-			"JMSST_troops\data\ranks\pogon_lt_co.paa"
-		};
-		class ItemInfo: UniformItem
-		{
-			uniformModel="-";
-			modelSides[] = {6};
-			uniformClass="ZDN_399_Uniform_Zaigan_F";
-			containerClass="Supply100";
-			mass=40;
-		};
-	};
-	class ZDN_399_Uniform_Fleet_Dragon_Base: JMSST_troops_MIbody_6th_F_CombatUniform
-	{
-		author="JMax";
-		scope=2;
-		displayName="[399 MI] Fleet Uniform (Schäfer)";
-		picture="\JMSST_troops\data\ico\ico_u_jacketFleet_ca.paa";
-		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
-		hiddenSelections[]=
-		{
-			"Camo1",
-			"Camo2",
-			"Camo3"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"Uniforms\data\Uniform\ZDN_399_Uniform_Base_Dragon_co",
-			"Uniforms\data\badges\ZDN_399thMiBadge.paa",
-			"JMSST_troops\data\ranks\pogon_serg_co.paa"
-		};
-		class ItemInfo: UniformItem
-		{
-			uniformModel="-";
-			modelSides[] = {6};
-			uniformClass="ZDN_399_Uniform_Dragon_F";
-			containerClass="Supply100";
-			mass=40;
-		};
-	};
-	class ZDN_399_Uniform_Engineer_Benji_Base: JMSST_troops_MIbody_6theng_cpl_F_CombatUniform
-	{
-		author="JMax";
-		scope=2;
-		displayName="[399 MI] Engineer Uniform (Jass)";
-		picture="\JMSST_troops\data\ico\ico_u_jacket_eng_ca.paa";
-		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
-		hiddenSelections[]=
-		{
-			"Camo1",
-			"Camo2",
-			"Camo3"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"Uniforms\data\Uniform\ZDN_399_Uniform_Base_Benji_co.paa",
-			"Uniforms\data\badges\ZDN_399thEngBadge.paa",
-			"JMSST_troops\data\ranks\pogon_serg_co"
-		};
-		class ItemInfo: UniformItem
-		{
-			uniformModel="-";
-			modelSides[] = {6};
-			uniformClass="ZDN_399_Uniform_Benji_F";
-			containerClass="Supply100";
-			mass=40;
-		};
-	};
-	class ZDN_399_Uniform_Fleet_Wurmstein_Base: JMSST_troops_MIbody_fleet_F_CombatUniform
-	{
-		author="JMax";
-		scope=2;
-		displayName="[399 MI] Fleet Uniform (Wurmstein)";
-		picture="\JMSST_troops\data\ico\ico_u_jacketFleet_ca.paa";
-		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
-		hiddenSelections[]=
-		{
-			"Camo1",
-			"Camo2",
-			"Camo3"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"Uniforms\data\Uniform\ZDN_399_Uniform_Base_Wurmstein_co.paa",
-			"Uniforms\data\badges\ZDN_399thMiBadge.paa",
-			"JMSST_troops\data\ranks\pogon_cp_co"
-		};
-		class ItemInfo: UniformItem
-		{
-			uniformModel="-";
-			modelSides[] = {6};
-			uniformClass="ZDN_399_Uniform_Wurmstein_F";
-			containerClass="Supply100";
-			mass=40;
-		};
-	};
-	class ZDN_399_Uniform_Medic_Drakshaw_Base: JMSST_troops_MIbody_6thmed_cpl_F_CombatUniform
-	{
-		author="JMax";
-		scope=2;
-		displayName="[399 MI] Medic Uniform (Drakshaw)";
-		picture="\JMSST_troops\data\ico\ico_u_jacket_med_ca.paa";
-		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
-		hiddenSelections[]=
-		{
-			"Camo1",
-			"Camo2",
-			"Camo3"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"Uniforms\data\Uniform\ZDN_399_Uniform_Base_Drakshaw_co.paa",
-			"Uniforms\data\badges\ZDN_399thMedBadge.paa",
-			"JMSST_troops\data\ranks\pogon_cp_co"
-		};
-		class ItemInfo: UniformItem
-		{
-			uniformModel="-";
-			modelSides[] = {6};
-			uniformClass="ZDN_399_Uniform_Drakshaw_F";
-			containerClass="Supply100";
-			mass=40;
-		};
-	};
-	class ZDN_399_Uniform_Tac_Base: JMSST_troops_MIbody_6th_F_CombatUniform
-    {
-        author="JMax";
-        scope=2;
-        displayName="[399 MI] Infantry Uniform (Tac)";
-        picture="\JMSST_troops\data\ico\ico_u_jacket_ca.paa";
-        model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
-        hiddenSelections[]=
-        {
-            "Camo1",
-            "Camo2",
-            "Camo3"
-        };
-        hiddenSelectionsTextures[]=
-        {
-            "Uniforms\data\Uniform\ZDN_399_Uniform_Base_Tac_co",
-            "Uniforms\data\badges\ZDN_399thMiBadge.paa",
-            "JMSST_troops\data\ranks\pogon_cp_co.paa"
-        };
-        class ItemInfo: UniformItem
-        {
-            uniformModel="-";
-            modelSides[] = {6};
-            uniformClass="ZDN_399_Uniform_Tac_F";
-            containerClass="Supply100";
-            mass=40;
-        };
-    };
-    class ZDN_399_Uniform_Medic_Dolphin_Base: JMSST_troops_MIbody_6th_F_CombatUniform
-    {
-        author="JMax";
-        scope=2;
-        displayName="[399 MI] Medic Uniform (Dolphin)";
-        picture="\JMSST_troops\data\ico\ico_u_jacket_ca.paa";
-        model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
-        hiddenSelections[]=
-        {
-            "Camo1",
-            "Camo2",
-            "Camo3"
-        };
-        hiddenSelectionsTextures[]=
-        {
-            "Uniforms\data\Uniform\ZDN_399_Uniform_Base_Dolphin_co",
-            "Uniforms\data\badges\ZDN_399thMedBadge.paa",
-            "JMSST_troops\data\ranks\pogon_cp_co.paa"
-        };
-        class ItemInfo: UniformItem
-        {
-            uniformModel="-";
-            modelSides[] = {6};
-            uniformClass="ZDN_399_Uniform_Dolphin_F";
-            containerClass="Supply100";
-            mass=40;
-        };
-    };
-
 	// ######################################################
 	// ######################## Vest ########################
 	// ######################################################
@@ -660,7 +322,7 @@ class CfgWeapons
 		scope=2;
 		side=3;
 		armor=2;
-		displayName="[399 MI] Infantry Vest (Basic)";
+		displayName="[399th MI] Infantry Vest (Basic)";
 		picture="\JMSST_troops\data\ico\ico_v_Agrade_ca.paa";
 		model="\JMSST_troops\vests\Agrade.p3d";
 		hiddenSelections[]=
@@ -669,7 +331,7 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"Uniforms\data\armor\ZDN_399_Vest.paa"
+			"Uniforms\data\vest\ZDN_399_Vest.paa"
 		};
 		class ItemInfo: VestItem
 		{
@@ -729,7 +391,7 @@ class CfgWeapons
 		scope=2;
 		side=3;
 		armor=2;
-		displayName="[399 MI] Command Vest (Basic)";
+		displayName="[399th MI] Command Vest (Basic)";
 		picture="\JMSST_troops\data\ico\ico_v_Agrade_ca.paa";
 		model="\JMSST_troops\vests\Agrade.p3d";
 		hiddenSelections[]=
@@ -738,7 +400,7 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"Uniforms\data\armor\ZDN_399_Vest_Command.paa"
+			"Uniforms\data\vest\ZDN_399_Vest_Command.paa"
 		};
 		class ItemInfo: VestItem
 		{
@@ -798,7 +460,7 @@ class CfgWeapons
 		scope=2;
 		side=3;
 		armor=2;
-		displayName="[399 MI] Engineer Vest (Full) (Basic)";
+		displayName="[399th MI] Engineer Vest (Full) (Basic)";
 		picture="\JMSST_troops\data\ico\ico_v_Agrade_ca.paa";
 		model="\JMSST_troops\vests\Agrade.p3d";
 		hiddenSelections[]=
@@ -807,7 +469,7 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"Uniforms\data\armor\ZDN_399_Eng_Vest_1.paa"
+			"Uniforms\data\vest\ZDN_399_Eng_Vest_1.paa"
 		};
 		class ItemInfo: VestItem
 		{
@@ -867,7 +529,7 @@ class CfgWeapons
 		scope=2;
 		side=3;
 		armor=2;
-		displayName="[399 MI] Engineer Vest (Stripe) (Basic)";
+		displayName="[399th MI] Engineer Vest (Stripe) (Basic)";
 		picture="\JMSST_troops\data\ico\ico_v_Agrade_ca.paa";
 		model="\JMSST_troops\vests\Agrade.p3d";
 		hiddenSelections[]=
@@ -876,7 +538,7 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"Uniforms\data\armor\ZDN_399_Eng_Vest_2.paa"
+			"Uniforms\data\vest\ZDN_399_Eng_Vest_2.paa"
 		};
 		class ItemInfo: VestItem
 		{
@@ -936,7 +598,7 @@ class CfgWeapons
 		scope=2;
 		side=3;
 		armor=2;
-		displayName="[399 MI] Medic Vest (Basic)";
+		displayName="[399th MI] Medic Vest (Basic)";
 		picture="\JMSST_troops\data\ico\ico_v_Agrade_ca.paa";
 		model="\JMSST_troops\vests\Agrade.p3d";
 		hiddenSelections[]=
@@ -945,7 +607,7 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"Uniforms\data\armor\ZDN_Vest_Medical_1.paa"
+			"Uniforms\data\vest\ZDN_Vest_Medical_1.paa"
 		};
 		class ItemInfo: VestItem
 		{
@@ -957,213 +619,6 @@ class CfgWeapons
 			hiddenSelections[]=
 			{
 				"Camo1"
-			};
-		};
-	};
-	class ZDN_399_Vest_Command_Zaigan: JMSST_troops_Agrade_MI
-	{
-		author="JMax";
-		_generalMacro="JMSST_troops_Agrade_MI";
-		scope=2;
-		side=3;
-		armor=2;
-		displayName="[399 MI] Infantry Vest (Zaigan)";
-		picture="\JMSST_troops\data\ico\ico_v_Agrade_ca.paa";
-		model="\JMSST_troops\vests\Agrade.p3d";
-		hiddenSelections[]=
-		{
-			"Camo1"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"Uniforms\data\armor\ZDN_399_CC_Zaigan.paa"
-		};
-		class ItemInfo: VestItem
-		{
-			uniformModel="\JMSST_troops\vests\Agrade.p3d";
-			containerClass="Supply200";
-			mass=2;
-			maximumLoad=250;
-			modelsides[]={6};
-			hiddenSelections[]=
-			{
-				"Camo1"
-			};
-			class HitpointsProtectionInfo
-			{
-				class Diaphragm
-				{
-					hitpointName="HitDiaphragm";
-					armor=40;
-					passThrough=0.30000001;
-				};
-				class Chest
-				{
-					hitpointName="HitChest";
-					armor=40;
-					passThrough=0.30000001;
-				};
-				class Abdomen
-				{
-					hitpointName="HitAbdomen";
-					armor=20;
-					passThrough=0.30000001;
-				};
-				class Pelvis
-				{
-					hitpointName="HitPelvis";
-					armor=25;
-					passThrough=0.30000001;
-				};
-				class Neck
-				{
-					hitpointName="HitNeck";
-					armor=10;
-					passThrough=0.2;
-				};
-				class Body
-				{
-					hitpointName="HitBody";
-					passThrough=0.30000001;
-				};
-			};
-		};
-	};
- 	class ZDN_399_Vest_Command_Dragon: JMSST_troops_Agrade_MI
- 	{
- 		author="JMax";
- 		_generalMacro="JMSST_troops_Agrade_MI";
- 		scope=2;
- 		side=3;
- 		armor=2;
- 		displayName="[399 MI] Infantry Vest (Schafer)";
- 		picture="\JMSST_troops\data\ico\ico_v_Agrade_ca.paa";
- 		model="\JMSST_troops\vests\Agrade.p3d";
- 		hiddenSelections[]=
- 		{
- 			"Camo1"
- 		};
- 		hiddenSelectionsTextures[]=
- 		{
- 			"Uniforms\data\armor\ZDN_399_CC_Dragon.paa"
- 		};
- 		class ItemInfo: VestItem
- 		{
- 			uniformModel="\JMSST_troops\vests\Agrade.p3d";
- 			containerClass="Supply200";
- 			mass=2;
- 			maximumLoad=250;
- 			modelsides[]={6};
- 			hiddenSelections[]=
- 			{
- 				"Camo1"
- 			};
-			class HitpointsProtectionInfo
-			{
-				class Diaphragm
-				{
-					hitpointName="HitDiaphragm";
-					armor=40;
-					passThrough=0.30000001;
-				};
-				class Chest
-				{
-					hitpointName="HitChest";
-					armor=40;
-					passThrough=0.30000001;
-				};
-				class Abdomen
-				{
-					hitpointName="HitAbdomen";
-					armor=20;
-					passThrough=0.30000001;
-				};
-				class Pelvis
-				{
-					hitpointName="HitPelvis";
-					armor=25;
-					passThrough=0.30000001;
-				};
-				class Neck
-				{
-					hitpointName="HitNeck";
-					armor=10;
-					passThrough=0.2;
-				};
-				class Body
-				{
-					hitpointName="HitBody";
-					passThrough=0.30000001;
-				};
-			};
- 		};
- 	};
-	class ZDN_399_Vest_Command_Benji: JMSST_troops_Agrade_MI
-	{
-		author="JMax";
-		_generalMacro="JMSST_troops_Agrade_MI";
-		scope=2;
-		side=3;
-		armor=2;
-		displayName="[399 MI] Infantry Vest (Benji)";
-		picture="\JMSST_troops\data\ico\ico_v_Agrade_ca.paa";
-		model="\JMSST_troops\vests\Agrade.p3d";
-		hiddenSelections[]=
-		{
-			"Camo1"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"Uniforms\data\armor\ZDN_399_CC_Benji.paa"
-		};
-		class ItemInfo: VestItem
-		{
-			uniformModel="\JMSST_troops\vests\Agrade.p3d";
-			containerClass="Supply200";
-			mass=2;
-			maximumLoad=250;
-			modelsides[]={6};
-			hiddenSelections[]=
-			{
-				"Camo1"
-			};
-			class HitpointsProtectionInfo
-			{
-				class Diaphragm
-				{
-					hitpointName="HitDiaphragm";
-					armor=40;
-					passThrough=0.30000001;
-				};
-				class Chest
-				{
-					hitpointName="HitChest";
-					armor=40;
-					passThrough=0.30000001;
-				};
-				class Abdomen
-				{
-					hitpointName="HitAbdomen";
-					armor=20;
-					passThrough=0.30000001;
-				};
-				class Pelvis
-				{
-					hitpointName="HitPelvis";
-					armor=25;
-					passThrough=0.30000001;
-				};
-				class Neck
-				{
-					hitpointName="HitNeck";
-					armor=10;
-					passThrough=0.2;
-				};
-				class Body
-				{
-					hitpointName="HitBody";
-					passThrough=0.30000001;
-				};
 			};
 		};
 	};
@@ -1175,7 +630,7 @@ class CfgWeapons
 		scope=2;
 		side=3;
 		armor=2;
-		displayName="[399 MI] Infantry Vest (Basic) (Troop)";
+		displayName="[399th MI] Infantry Vest (Basic) (Troop)";
 		picture="\JMSST_troops\data\ico\ico_v_Agrade_ca.paa";
 		model="\JMSST_troops\vests\Agrade_troop.p3d";
 		hiddenSelections[]=
@@ -1184,7 +639,7 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"Uniforms\data\armor\ZDN_399_Vest.paa"
+			"Uniforms\data\vest\ZDN_399_Vest.paa"
 		};
 		class ItemInfo: VestItem
 		{
@@ -1244,7 +699,7 @@ class CfgWeapons
 		scope=2;
 		side=3;
 		armor=2;
-		displayName="[399 MI] Command Vest (Troop)";
+		displayName="[399th MI] Command Vest (Troop)";
 		picture="\JMSST_troops\data\ico\ico_v_Agrade_ca.paa";
 		model="\JMSST_troops\vests\Agrade_troop.p3d";
 		hiddenSelections[]=
@@ -1253,7 +708,7 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"Uniforms\data\armor\ZDN_399_Vest_Command.paa"
+			"Uniforms\data\vest\ZDN_399_Vest_Command.paa"
 		};
 		class ItemInfo: VestItem
 		{
@@ -1313,7 +768,7 @@ class CfgWeapons
 		scope=2;
 		side=3;
 		armor=2;
-		displayName="[399 MI] Engineer Vest (Full) (Troop)";
+		displayName="[399th MI] Engineer Vest (Full) (Troop)";
 		picture="\JMSST_troops\data\ico\ico_v_Agrade_ca.paa";
 		model="\JMSST_troops\vests\Agrade_troop.p3d";
 		hiddenSelections[]=
@@ -1322,7 +777,7 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"Uniforms\data\armor\ZDN_399_Eng_Vest_1.paa"
+			"Uniforms\data\vest\ZDN_399_Eng_Vest_1.paa"
 		};
 		class ItemInfo: VestItem
 		{
@@ -1382,7 +837,7 @@ class CfgWeapons
 		scope=2;
 		side=3;
 		armor=2;
-		displayName="[399 MI] Engineer Vest (Stripe) (Troop)";
+		displayName="[399th MI] Engineer Vest (Stripe) (Troop)";
 		picture="\JMSST_troops\data\ico\ico_v_Agrade_ca.paa";
 		model="\JMSST_troops\vests\Agrade_troop.p3d";
 		hiddenSelections[]=
@@ -1391,7 +846,7 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"Uniforms\data\armor\ZDN_399_Eng_Vest_2.paa"
+			"Uniforms\data\vest\ZDN_399_Eng_Vest_2.paa"
 		};
 		class ItemInfo: VestItem
 		{
@@ -1451,7 +906,7 @@ class CfgWeapons
 		scope=2;
 		side=3;
 		armor=2;
-		displayName="[399 MI] Medic Vest (Troop)";
+		displayName="[399th MI] Medic Vest (Troop)";
 		picture="\JMSST_troops\data\ico\ico_v_Agrade_ca.paa";
 		model="\JMSST_troops\vests\Agrade_troop.p3d";
 		hiddenSelections[]=
@@ -1460,214 +915,7 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"Uniforms\data\armor\ZDN_Vest_Medical_1.paa"
-		};
-		class ItemInfo: VestItem
-		{
-			uniformmodel="\JMSST_troops\vests\Agrade_troop.p3d";
-			containerClass="Supply250";
-			mass=2;
-			maximumLoad=350;
-			modelsides[]={6};
-			hiddenSelections[]=
-			{
-				"Camo1"
-			};
-			class HitpointsProtectionInfo
-			{
-				class Diaphragm
-				{
-					hitpointName="HitDiaphragm";
-					armor=40;
-					passThrough=0.30000001;
-				};
-				class Chest
-				{
-					hitpointName="HitChest";
-					armor=40;
-					passThrough=0.30000001;
-				};
-				class Abdomen
-				{
-					hitpointName="HitAbdomen";
-					armor=20;
-					passThrough=0.30000001;
-				};
-				class Pelvis
-				{
-					hitpointName="HitPelvis";
-					armor=25;
-					passThrough=0.30000001;
-				};
-				class Neck
-				{
-					hitpointName="HitNeck";
-					armor=10;
-					passThrough=0.2;
-				};
-				class Body
-				{
-					hitpointName="HitBody";
-					passThrough=0.30000001;
-				};
-			};
-		};
-	};
-	class ZDN_399_Vest_Troop_Command_Zaigan: JMSST_troops_Agrade_troop_MI
-	{
-		author="JMax";
-		_generalMacro="JMSST_troops_Agrade_troop_MI";
-		scope=2;
-		side=3;
-		armor=2;
-		displayName="[399 MI] Infantry Vest (Zaigan) (Troop)";
-		picture="\JMSST_troops\data\ico\ico_v_Agrade_ca.paa";
-		model="\JMSST_troops\vests\Agrade_troop.p3d";
-		hiddenSelections[]=
-		{
-			"Camo1"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"Uniforms\data\armor\ZDN_399_CC_Zaigan.paa"
-		};
-		class ItemInfo: VestItem
-		{
-			uniformmodel="\JMSST_troops\vests\Agrade_troop.p3d";
-			containerClass="Supply250";
-			mass=2;
-			maximumLoad=350;
-			modelsides[]={6};
-			hiddenSelections[]=
-			{
-				"Camo1"
-			};
-			class HitpointsProtectionInfo
-			{
-				class Diaphragm
-				{
-					hitpointName="HitDiaphragm";
-					armor=40;
-					passThrough=0.30000001;
-				};
-				class Chest
-				{
-					hitpointName="HitChest";
-					armor=40;
-					passThrough=0.30000001;
-				};
-				class Abdomen
-				{
-					hitpointName="HitAbdomen";
-					armor=20;
-					passThrough=0.30000001;
-				};
-				class Pelvis
-				{
-					hitpointName="HitPelvis";
-					armor=25;
-					passThrough=0.30000001;
-				};
-				class Neck
-				{
-					hitpointName="HitNeck";
-					armor=10;
-					passThrough=0.2;
-				};
-				class Body
-				{
-					hitpointName="HitBody";
-					passThrough=0.30000001;
-				};
-			};
-		};
-	};
- 	class ZDN_399_Vest_Troop_Command_Dragon: JMSST_troops_Agrade_troop_MI
- 	{
- 		author="JMax";
- 		_generalMacro="JMSST_troops_Agrade_troop_MI";
- 		scope=2;
- 		side=3;
- 		armor=2;
- 		displayName="[399 MI] Infantry Vest (Schafer) (Troop)";
- 		picture="\JMSST_troops\data\ico\ico_v_Agrade_ca.paa";
- 		model="\JMSST_troops\vests\Agrade_troop.p3d";
- 		hiddenSelections[]=
- 		{
- 			"Camo1"
- 		};
- 		hiddenSelectionsTextures[]=
- 		{
- 			"Uniforms\data\armor\ZDN_399_CC_Dragon.paa"
- 		};
- 		class ItemInfo: VestItem
- 		{
- 			uniformmodel="\JMSST_troops\vests\Agrade_troop.p3d";
- 			containerClass="Supply250";
- 			mass=2;
- 			maximumLoad=350;
- 			modelsides[]={6};
- 			hiddenSelections[]=
- 			{
- 				"Camo1"
- 			};
-			class HitpointsProtectionInfo
-			{
-				class Diaphragm
-				{
-					hitpointName="HitDiaphragm";
-					armor=40;
-					passThrough=0.30000001;
-				};
-				class Chest
-				{
-					hitpointName="HitChest";
-					armor=40;
-					passThrough=0.30000001;
-				};
-				class Abdomen
-				{
-					hitpointName="HitAbdomen";
-					armor=20;
-					passThrough=0.30000001;
-				};
-				class Pelvis
-				{
-					hitpointName="HitPelvis";
-					armor=25;
-					passThrough=0.30000001;
-				};
-				class Neck
-				{
-					hitpointName="HitNeck";
-					armor=10;
-					passThrough=0.2;
-				};
-				class Body
-				{
-					hitpointName="HitBody";
-					passThrough=0.30000001;
-				};
-			};
- 		};
- 	};
-	class ZDN_399_Vest_Troop_Command_Benji: JMSST_troops_Agrade_troop_MI
-	{
-		author="JMax";
-		_generalMacro="JMSST_troops_Agrade_troop_MI";
-		scope=2;
-		side=3;
-		armor=2;
-		displayName="[399 MI] Infantry Vest (Benji) (Troop)";
-		picture="\JMSST_troops\data\ico\ico_v_Agrade_ca.paa";
-		model="\JMSST_troops\vests\Agrade_troop.p3d";
-		hiddenSelections[]=
-		{
-			"Camo1"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"Uniforms\data\armor\ZDN_399_CC_Benji.paa"
+			"Uniforms\data\vest\ZDN_Vest_Medical_1.paa"
 		};
 		class ItemInfo: VestItem
 		{
@@ -1721,14 +969,14 @@ class CfgWeapons
 		};
 	};
 
-		class ZDN_399_Vest_Troop_Two_Base: JMSST_troops_Agrade_troop2_MI
+	class ZDN_399_Vest_Troop_Two_Base: JMSST_troops_Agrade_troop2_MI
 	{
 		author="JMax";
 		_generalMacro="JMSST_troops_Agrade_troop2_MI";
 		scope=2;
 		side=3;
 		armor=2;
-		displayName="[399 MI] Infantry Vest (Basic) (Troop 2)";
+		displayName="[399th MI] Infantry Vest (Basic) (Troop 2)";
 		picture="\JMSST_troops\data\ico\ico_v_Agrade_ca.paa";
 		model="\JMSST_troops\vests\Agrade_troop2.p3d";
 		hiddenSelections[]=
@@ -1737,7 +985,7 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"Uniforms\data\armor\ZDN_399_Vest.paa"
+			"Uniforms\data\vest\ZDN_399_Vest.paa"
 		};
 		class ItemInfo: VestItem
 		{
@@ -1797,7 +1045,7 @@ class CfgWeapons
 		scope=2;
 		side=3;
 		armor=2;
-		displayName="[399 MI] Command Vest (Troop 2)";
+		displayName="[399th MI] Command Vest (Troop 2)";
 		picture="\JMSST_troops\data\ico\ico_v_Agrade_ca.paa";
 		model="\JMSST_troops\vests\Agrade_troop2.p3d";
 		hiddenSelections[]=
@@ -1806,7 +1054,7 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"Uniforms\data\armor\ZDN_399_Vest_Command.paa"
+			"Uniforms\data\vest\ZDN_399_Vest_Command.paa"
 		};
 		class ItemInfo: VestItem
 		{
@@ -1866,7 +1114,7 @@ class CfgWeapons
 		scope=2;
 		side=3;
 		armor=2;
-		displayName="[399 MI] Engineer Vest (Full) (Troop 2)";
+		displayName="[399th MI] Engineer Vest (Full) (Troop 2)";
 		picture="\JMSST_troops\data\ico\ico_v_Agrade_ca.paa";
 		model="\JMSST_troops\vests\Agrade_troop2.p3d";
 		hiddenSelections[]=
@@ -1875,7 +1123,7 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"Uniforms\data\armor\ZDN_399_Eng_Vest_1.paa"
+			"Uniforms\data\vest\ZDN_399_Eng_Vest_1.paa"
 		};
 		class ItemInfo: VestItem
 		{
@@ -1935,7 +1183,7 @@ class CfgWeapons
 		scope=2;
 		side=3;
 		armor=2;
-		displayName="[399 MI] Engineer Vest (Stripe) (Troop 2)";
+		displayName="[399th MI] Engineer Vest (Stripe) (Troop 2)";
 		picture="\JMSST_troops\data\ico\ico_v_Agrade_ca.paa";
 		model="\JMSST_troops\vests\Agrade_troop2.p3d";
 		hiddenSelections[]=
@@ -1944,7 +1192,7 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"Uniforms\data\armor\ZDN_399_Eng_Vest_2.paa"
+			"Uniforms\data\vest\ZDN_399_Eng_Vest_2.paa"
 		};
 		class ItemInfo: VestItem
 		{
@@ -2004,7 +1252,7 @@ class CfgWeapons
 		scope=2;
 		side=3;
 		armor=2;
-		displayName="[399 MI] Medic Vest (Troop 2)";
+		displayName="[399th MI] Medic Vest (Troop 2)";
 		picture="\JMSST_troops\data\ico\ico_v_Agrade_ca.paa";
 		model="\JMSST_troops\vests\Agrade_troop2.p3d";
 		hiddenSelections[]=
@@ -2013,7 +1261,7 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"Uniforms\data\armor\ZDN_Vest_Medical_1.paa"
+			"Uniforms\data\vest\ZDN_Vest_Medical_1.paa"
 		};
 		class ItemInfo: VestItem
 		{
@@ -2066,214 +1314,7 @@ class CfgWeapons
 			};
 		};
 	};
-	class ZDN_399_Vest_Troop_Two_Command_Zaigan: JMSST_troops_Agrade_troop2_MI
-	{
-		author="JMax";
-		_generalMacro="JMSST_troops_Agrade_troop2_MI";
-		scope=2;
-		side=3;
-		armor=2;
-		displayName="[399 MI] Infantry Vest (Zaigan) (Troop 2)";
-		picture="\JMSST_troops\data\ico\ico_v_Agrade_ca.paa";
-		model="\JMSST_troops\vests\Agrade_troop2.p3d";
-		hiddenSelections[]=
-		{
-			"Camo1"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"Uniforms\data\armor\ZDN_399_CC_Zaigan.paa"
-		};
-		class ItemInfo: VestItem
-		{
-			uniformmodel="\JMSST_troops\vests\Agrade_troop2.p3d";
-			containerClass="Supply300";
-			mass=2;
-			maximumLoad=400;
-			modelsides[]={6};
-			hiddenSelections[]=
-			{
-				"Camo1"
-			};
-			class HitpointsProtectionInfo
-			{
-				class Diaphragm
-				{
-					hitpointName="HitDiaphragm";
-					armor=40;
-					passThrough=0.30000001;
-				};
-				class Chest
-				{
-					hitpointName="HitChest";
-					armor=40;
-					passThrough=0.30000001;
-				};
-				class Abdomen
-				{
-					hitpointName="HitAbdomen";
-					armor=20;
-					passThrough=0.30000001;
-				};
-				class Pelvis
-				{
-					hitpointName="HitPelvis";
-					armor=25;
-					passThrough=0.30000001;
-				};
-				class Neck
-				{
-					hitpointName="HitNeck";
-					armor=10;
-					passThrough=0.2;
-				};
-				class Body
-				{
-					hitpointName="HitBody";
-					passThrough=0.30000001;
-				};
-			};
-		};
-	};
- 	class ZDN_399_Vest_Troop_Two_Command_Dragon: JMSST_troops_Agrade_troop2_MI
- 	{
- 		author="JMax";
- 		_generalMacro="JMSST_troops_Agrade_troop2_MI";
- 		scope=2;
- 		side=3;
- 		armor=2;
- 		displayName="[399 MI] Infantry Vest (Schafer) (Troop 2)";
- 		picture="\JMSST_troops\data\ico\ico_v_Agrade_ca.paa";
- 		model="\JMSST_troops\vests\Agrade_troop2.p3d";
- 		hiddenSelections[]=
- 		{
- 			"Camo1"
- 		};
- 		hiddenSelectionsTextures[]=
- 		{
- 			"Uniforms\data\armor\ZDN_399_CC_Dragon.paa"
- 		};
- 		class ItemInfo: VestItem
- 		{
- 			uniformmodel="\JMSST_troops\vests\Agrade_troop2.p3d";
- 			containerClass="Supply300";
- 			mass=2;
- 			maximumLoad=400;
- 			modelsides[]={6};
- 			hiddenSelections[]=
- 			{
- 				"Camo1"
- 			};
-			class HitpointsProtectionInfo
-			{
-				class Diaphragm
-				{
-					hitpointName="HitDiaphragm";
-					armor=40;
-					passThrough=0.30000001;
-				};
-				class Chest
-				{
-					hitpointName="HitChest";
-					armor=40;
-					passThrough=0.30000001;
-				};
-				class Abdomen
-				{
-					hitpointName="HitAbdomen";
-					armor=20;
-					passThrough=0.30000001;
-				};
-				class Pelvis
-				{
-					hitpointName="HitPelvis";
-					armor=25;
-					passThrough=0.30000001;
-				};
-				class Neck
-				{
-					hitpointName="HitNeck";
-					armor=10;
-					passThrough=0.2;
-				};
-				class Body
-				{
-					hitpointName="HitBody";
-					passThrough=0.30000001;
-				};
-			};
- 		};
- 	};
-	class ZDN_399_Vest_Troop_Two_Command_Benji: JMSST_troops_Agrade_troop2_MI
-	{
-		author="JMax";
-		_generalMacro="JMSST_troops_Agrade_troop2_MI";
-		scope=2;
-		side=3;
-		armor=2;
-		displayName="[399 MI] Infantry Vest (Benji) (Troop 2)";
-		picture="\JMSST_troops\data\ico\ico_v_Agrade_ca.paa";
-		model="\JMSST_troops\vests\Agrade_troop2.p3d";
-		hiddenSelections[]=
-		{
-			"Camo1"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"Uniforms\data\armor\ZDN_399_CC_Benji.paa"
-		};
-		class ItemInfo: VestItem
-		{
-			uniformmodel="\JMSST_troops\vests\Agrade_troop2.p3d";
-			containerClass="Supply300";
-			mass=2;
-			maximumLoad=400;
-			modelsides[]={6};
-			hiddenSelections[]=
-			{
-				"Camo1"
-			};
-			class HitpointsProtectionInfo
-			{
-				class Diaphragm
-				{
-					hitpointName="HitDiaphragm";
-					armor=40;
-					passThrough=0.30000001;
-				};
-				class Chest
-				{
-					hitpointName="HitChest";
-					armor=40;
-					passThrough=0.30000001;
-				};
-				class Abdomen
-				{
-					hitpointName="HitAbdomen";
-					armor=20;
-					passThrough=0.30000001;
-				};
-				class Pelvis
-				{
-					hitpointName="HitPelvis";
-					armor=25;
-					passThrough=0.30000001;
-				};
-				class Neck
-				{
-					hitpointName="HitNeck";
-					armor=10;
-					passThrough=0.2;
-				};
-				class Body
-				{
-					hitpointName="HitBody";
-					passThrough=0.30000001;
-				};
-			};
-		};
-	};
-
+	
 	class ZDN_399_Vest_Troop_Bandolier_Base: JMSST_troops_Agrade_troopBand_MI
 	{
 		author="JMax";
@@ -2281,7 +1322,7 @@ class CfgWeapons
 		scope=2;
 		side=3;
 		armor=2;
-		displayName="[399 MI] Infantry Vest (Basic) (Troop-B)";
+		displayName="[399th MI] Infantry Vest (Basic) (Troop-B)";
 		picture="\JMSST_troops\data\ico\ico_v_Agrade_ca.paa";
 		model="\JMSST_troops\vests\Agrade_troop_band.p3d";
 		hiddenSelections[]=
@@ -2290,7 +1331,7 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"Uniforms\data\armor\ZDN_399_Vest.paa"
+			"Uniforms\data\vest\ZDN_399_Vest.paa"
 		};
 		class ItemInfo: VestItem
 		{
@@ -2350,7 +1391,7 @@ class CfgWeapons
 		scope=2;
 		side=3;
 		armor=2;
-		displayName="[399 MI] Command Vest (Troop-B)";
+		displayName="[399th MI] Command Vest (Troop-B)";
 		picture="\JMSST_troops\data\ico\ico_v_Agrade_ca.paa";
 		model="\JMSST_troops\vests\Agrade_troop_band.p3d";
 		hiddenSelections[]=
@@ -2359,7 +1400,7 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"Uniforms\data\armor\ZDN_399_Vest_Command.paa"
+			"Uniforms\data\vest\ZDN_399_Vest_Command.paa"
 		};
 		class ItemInfo: VestItem
 		{
@@ -2414,74 +1455,74 @@ class CfgWeapons
 	};
 
 	class ZDN_399_Vest_Troop_Grenadier_Base: JMSST_troops_Agrade_gl_MI
+	{
+		author="JMax";
+		_generalMacro="JMSST_troops_Agrade_gl_MI";
+		scope=2;
+		side=3;
+		armor=2;
+		displayName="[399th MI] Infantry Vest (Basic) (Grenadier)";
+		picture="\JMSST_troops\data\ico\ico_v_Agrade_ca.paa";
+		model="\JMSST_troops\vests\Agrade_gl.p3d";
+		hiddenSelections[]=
 		{
-			author="JMax";
-			_generalMacro="JMSST_troops_Agrade_gl_MI";
-			scope=2;
-			side=3;
-			armor=2;
-			displayName="[399 MI] Infantry Vest (Basic) (Grenadier)";
-			picture="\JMSST_troops\data\ico\ico_v_Agrade_ca.paa";
-			model="\JMSST_troops\vests\Agrade_gl.p3d";
+			"Camo1"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"Uniforms\data\vest\ZDN_399_Vest.paa"
+		};
+		class ItemInfo: VestItem
+		{
+			uniformmodel="\JMSST_troops\vests\Agrade_gl.p3d";
+			containerClass="Supply400";
+			mass=2;
+			maximumLoad=450;
+			modelsides[]={6};
 			hiddenSelections[]=
 			{
 				"Camo1"
 			};
-			hiddenSelectionsTextures[]=
+		};
+		class HitpointsProtectionInfo
+		{
+			class Diaphragm
 			{
-				"Uniforms\data\armor\ZDN_399_Vest.paa"
+				hitpointName="HitDiaphragm";
+				armor=40;
+				passThrough=0.30000001;
 			};
-			class ItemInfo: VestItem
+			class Chest
 			{
-				uniformmodel="\JMSST_troops\vests\Agrade_gl.p3d";
-				containerClass="Supply400";
-				mass=2;
-				maximumLoad=450;
-				modelsides[]={6};
-				hiddenSelections[]=
-				{
-					"Camo1"
-				};
-			class HitpointsProtectionInfo
-			{
-				class Diaphragm
-				{
-					hitpointName="HitDiaphragm";
-					armor=40;
-					passThrough=0.30000001;
-				};
-				class Chest
-				{
-					hitpointName="HitChest";
-					armor=40;
-					passThrough=0.30000001;
-				};
-				class Abdomen
-				{
-					hitpointName="HitAbdomen";
-					armor=20;
-					passThrough=0.30000001;
-				};
-				class Pelvis
-				{
-					hitpointName="HitPelvis";
-					armor=25;
-					passThrough=0.30000001;
-				};
-				class Neck
-				{
-					hitpointName="HitNeck";
-					armor=10;
-					passThrough=0.2;
-				};
-				class Body
-				{
-					hitpointName="HitBody";
-					passThrough=0.30000001;
-				};
+				hitpointName="HitChest";
+				armor=40;
+				passThrough=0.30000001;
 			};
+			class Abdomen
+			{
+				hitpointName="HitAbdomen";
+				armor=20;
+				passThrough=0.30000001;
+			};
+			class Pelvis
+			{
+				hitpointName="HitPelvis";
+				armor=25;
+				passThrough=0.30000001;
+			};
+			class Neck
+			{
+				hitpointName="HitNeck";
+				armor=10;
+				passThrough=0.2;
+			};
+			class Body
+			{
+				hitpointName="HitBody";
+				passThrough=0.30000001;
 			};
 		};
+	};
 
 	// ########################################################
 	// ######################## HELMET ########################
@@ -2496,7 +1537,7 @@ class CfgWeapons
 		author="JMax";
 		weaponPoolAvailable = 1;
 		scope=2;
-		displayName="[399 MI] Infantry Helmet";
+		displayName="[399th MI] Infantry Helmet";
 		picture="\JMSST_troops\data\ico\ico_h_M3.paa";
 		model="\JMSST_troops\vests\M3helmet.p3d";
 		hiddenSelections[]=
@@ -2513,7 +1554,7 @@ class CfgWeapons
 		author="JMax";
 		weaponPoolAvailable = 1;
 		scope=2;
-		displayName="[399 MI] Infantry Helmet (Custom)";
+		displayName="[399th MI] Infantry Helmet (Custom)";
 		picture="\JMSST_troops\data\ico\ico_h_M3.paa";
 		model="\JMSST_troops\vests\M3helmet.p3d";
 		hiddenSelections[]=
@@ -2530,7 +1571,7 @@ class CfgWeapons
 		author="JMax";
 		weaponPoolAvailable = 1;
 		scope=2;
-		displayName="[399 MI] Infantry Helmet (Custom)";
+		displayName="[399th MI] Infantry Helmet (Custom)";
 		picture="\JMSST_troops\data\ico\ico_h_M3.paa";
 		model="\JMSST_troops\vests\M3helmet.p3d";
 		hiddenSelections[]=
@@ -2547,7 +1588,7 @@ class CfgWeapons
 		author="JMax";
 		weaponPoolAvailable = 1;
 		scope=2;
-		displayName="[399 MI] Infantry Helmet (Bug Park)";
+		displayName="[399th MI] Infantry Helmet (Bug Park)";
 		picture="\JMSST_troops\data\ico\ico_h_M3.paa";
 		model="\JMSST_troops\vests\M3helmet.p3d";
 		hiddenSelections[]=
@@ -2564,7 +1605,7 @@ class CfgWeapons
 		author="JMax";
 		weaponPoolAvailable = 1;
 		scope=2;
-		displayName="[399 MI] Medic Helmet";
+		displayName="[399th MI] Medic Helmet";
 		picture="\JMSST_troops\data\ico\ico_h_M3.paa";
 		model="\JMSST_troops\vests\M3helmet.p3d";
 		hiddenSelections[]=
@@ -2581,7 +1622,7 @@ class CfgWeapons
 		author="JMax";
 		weaponPoolAvailable = 1;
 		scope=2;
-		displayName="[399 MI] Medic Helmet (Custom)";
+		displayName="[399th MI] Medic Helmet (Custom)";
 		picture="\JMSST_troops\data\ico\ico_h_M3.paa";
 		model="\JMSST_troops\vests\M3helmet.p3d";
 		hiddenSelections[]=
@@ -2598,7 +1639,7 @@ class CfgWeapons
 		author="JMax";
 		weaponPoolAvailable = 1;
 		scope=2;
-		displayName="[399 MI] Medic Helmet";
+		displayName="[399th MI] Medic Helmet";
 		picture="\JMSST_troops\data\ico\ico_h_M3.paa";
 		model="\JMSST_troops\vests\M3helmet.p3d";
 		hiddenSelections[]=
@@ -2615,7 +1656,7 @@ class CfgWeapons
 		author="JMax";
 		weaponPoolAvailable = 1;
 		scope=2;
-		displayName="[399 MI] Medic Helmet (Custom)";
+		displayName="[399th MI] Medic Helmet (Custom)";
 		picture="\JMSST_troops\data\ico\ico_h_M3.paa";
 		model="\JMSST_troops\vests\M3helmet.p3d";
 		hiddenSelections[]=
@@ -2632,7 +1673,7 @@ class CfgWeapons
 		author="JMax";
 		weaponPoolAvailable = 1;
 		scope=2;
-		displayName="[399 MI] Engineer Helmet";
+		displayName="[399th MI] Engineer Helmet";
 		picture="\JMSST_troops\data\ico\ico_h_M3.paa";
 		model="\JMSST_troops\vests\M3helmet.p3d";
 		hiddenSelections[]=
@@ -2649,7 +1690,7 @@ class CfgWeapons
 		author="JMax";
 		weaponPoolAvailable = 1;
 		scope=2;
-		displayName="[399 MI] Engineer Helmet (Alt)";
+		displayName="[399th MI] Engineer Helmet (Alt)";
 		picture="\JMSST_troops\data\ico\ico_h_M3.paa";
 		model="\JMSST_troops\vests\M3helmet.p3d";
 		hiddenSelections[]=
@@ -2667,7 +1708,7 @@ class CfgWeapons
 		author="JMax";
 		weaponPoolAvailable = 1;
 		scope=2;
-		displayName="[399 MI] Fleet Helmet (Airtight)";
+		displayName="[399th MI] Fleet Helmet (Airtight)";
 		picture="\JMSST_troops\data\ico\ico_h_M3al.paa";
 		model="JMSST_troops\helmets\M3helmet_air.p3d";
 		hiddenSelections[]=
@@ -2687,7 +1728,7 @@ class CfgWeapons
 		author="JMax";
 		weaponPoolAvailable = 1;
 		scope=2;
-		displayName="[399 MI] Patrol Cap (Basic)";
+		displayName="[399th MI] Patrol Cap (Basic)";
 		picture="\JMSST_troops\data\ico\ico_h_cap701.paa";
 		model="JMSST_troops\helmets\MIcap.p3d";
 		hiddenSelections[]=
@@ -2704,7 +1745,7 @@ class CfgWeapons
 		author="JMax";
 		weaponPoolAvailable = 1;
 		scope=2;
-		displayName="[399 MI] Patrol Cap (Medic) Cap (Basic)";
+		displayName="[399th MI] Patrol Cap (Medic) Cap (Basic)";
 		picture="\JMSST_troops\data\ico\ico_h_cap701.paa";
 		model="JMSST_troops\helmets\MIcap.p3d";
 		hiddenSelections[]=
