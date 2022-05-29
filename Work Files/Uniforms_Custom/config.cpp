@@ -357,7 +357,7 @@ class CfgWeapons
         author="JMax";
         scope=2;
         displayName="[399th MI][C] Medic Uniform (Dolphin)";
-        picture="\JMSST_troops\data\ico\ico_u_jacket_ca.paa";
+		picture="\JMSST_troops\data\ico\ico_u_jacket_med_ca.paa";
         model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
         hiddenSelections[]=
         {
@@ -388,6 +388,7 @@ class CfgWeapons
 	class JMSST_troops_Agrade_MI;
 	class JMSST_troops_Agrade_troop_MI;
 	class JMSST_troops_Agrade_troop2_MI;
+	class VestItem;
 	
  	class ZDN_399_Vest_Troop_Command_Zaigan: JMSST_troops_Agrade_troop_MI
 	{
