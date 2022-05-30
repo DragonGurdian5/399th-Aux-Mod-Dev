@@ -397,7 +397,7 @@ class CfgWeapons
 		scope=2;
 		side=3;
 		armor=2;
-		displayName="[399 MI] Infantry Vest (Zaigan) (Troop)";
+		displayName="[399th MI][C] Infantry Vest (Zaigan)";
 		picture="\JMSST_troops\data\ico\ico_v_Agrade_ca.paa";
 		model="\JMSST_troops\vests\Agrade_troop.p3d";
 		hiddenSelections[]=
@@ -466,7 +466,7 @@ class CfgWeapons
  		scope=2;
  		side=3;
  		armor=2;
- 		displayName="[399 MI] Infantry Vest (Schafer)";
+ 		displayName="[399th MI][C] Infantry Vest (Schafer)";
  		picture="\JMSST_troops\data\ico\ico_v_Agrade_ca.paa";
  		model="\JMSST_troops\vests\Agrade.p3d";
  		hiddenSelections[]=
@@ -535,7 +535,7 @@ class CfgWeapons
 		scope=2;
 		side=3;
 		armor=2;
-		displayName="[399th MI] Infantry Vest (Benji) (Troop 2)";
+		displayName="[399th MI][C] Infantry Vest (Benji)";
 		picture="\JMSST_troops\data\ico\ico_v_Agrade_ca.paa";
 		model="\JMSST_troops\vests\Agrade_troop2.p3d";
 		hiddenSelections[]=

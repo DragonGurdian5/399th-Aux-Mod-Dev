@@ -2560,7 +2560,7 @@ class CfgWeapons
 			};
 		};
 	};
-    class ZDN_399_Vest_Troop_Command: JMSST_troops_Agrade_troop_MI
+	class ZDN_399_Vest_Troop_Command: JMSST_troops_Agrade_troop_MI
 	{
 		author="JMax";
 		_generalMacro="JMSST_troops_Agrade_troop_MI";
@@ -2906,7 +2906,7 @@ class CfgWeapons
 			};
 		};
 	};
-    class ZDN_399_Vest_Troop_Two_Command: JMSST_troops_Agrade_troop2_MI
+	class ZDN_399_Vest_Troop_Two_Command: JMSST_troops_Agrade_troop2_MI
 	{
 		author="JMax";
 		_generalMacro="JMSST_troops_Agrade_troop2_MI";
@@ -3252,7 +3252,7 @@ class CfgWeapons
 			};
 		};
 	};
-    class ZDN_399_Vest_Troop_Bandolier_Command: JMSST_troops_Agrade_troopBand_MI
+	class ZDN_399_Vest_Troop_Bandolier_Command: JMSST_troops_Agrade_troopBand_MI
 	{
 		author="JMax";
 		_generalMacro="JMSST_troops_Agrade_troopBand_MI";
