@@ -36,6 +36,8 @@ class CfgVehicles
 {
 	class JMSST_troops_MIbody_6th_F;
 	class B_Kitbag_Base;
+	class ReammoBox;
+	class TFAR_Bag_Base;
 
 	class ZDN_B_Kitbag_Med: B_Kitbag_Base
 	{
@@ -88,13 +90,17 @@ class CfgVehicles
 		scope=2;
 		displayName="[399th MI] FedNet Kitbag";
 	};
-	class ZDN_FleetBag: B_Kitbag_Base
+	class ZDN_FleetBag: TFAR_Bag_Base
 	{
 		picture="\JMSST_troops\data\ico\ico_b_c_kitbag_black.paa";
 		scope=2;
 		displayName="[399th MI] Fleet Bag";
 		model="";
-	}
+		tf_encryptionCode="tf_west_radio_code";
+		tf_dialog="rt1523g_radio_dialog";
+		tf_subtype="digital_lr";
+		containerClass="Supply1200";
+	};
 
 	class ZDN_399_Uniform_F: JMSST_troops_MIbody_6th_F
 	{
@@ -1839,7 +1845,7 @@ class CfgWeapons
 	{
 		author="JMax";
 		scope=2;
-		displayName="[399th MI] Engineer Uniform";
+		displayName="[399th MI] Engineer Uniform (Recruit)";
 		picture="\JMSST_troops\data\ico\ico_u_jacket_eng_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		hiddenSelections[]=
@@ -1867,7 +1873,7 @@ class CfgWeapons
 	{
 		author="JMax";
 		scope=2;
-		displayName="[399th MI] Engineer Uniform";
+		displayName="[399th MI] Engineer Uniform (E-1)";
 		picture="\JMSST_troops\data\ico\ico_u_jacket_eng_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		hiddenSelections[]=
@@ -1895,7 +1901,7 @@ class CfgWeapons
 	{
 		author="JMax";
 		scope=2;
-		displayName="[399th MI] Engineer Uniform";
+		displayName="[399th MI] Engineer Uniform (E-2)";
 		picture="\JMSST_troops\data\ico\ico_u_jacket_eng_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		hiddenSelections[]=
@@ -1923,7 +1929,7 @@ class CfgWeapons
 	{
 		author="JMax";
 		scope=2;
-		displayName="[399th MI] Engineer Uniform";
+		displayName="[399th MI] Engineer Uniform (E-3)";
 		picture="\JMSST_troops\data\ico\ico_u_jacket_eng_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		hiddenSelections[]=
@@ -1951,7 +1957,7 @@ class CfgWeapons
 	{
 		author="JMax";
 		scope=2;
-		displayName="[399th MI] Engineer Uniform";
+		displayName="[399th MI] Engineer Uniform (E-4)";
 		picture="\JMSST_troops\data\ico\ico_u_jacket_eng_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		hiddenSelections[]=
@@ -1979,7 +1985,7 @@ class CfgWeapons
 	{
 		author="JMax";
 		scope=2;
-		displayName="[399th MI] Engineer Uniform";
+		displayName="[399th MI] Engineer Uniform (E-5)";
 		picture="\JMSST_troops\data\ico\ico_u_jacket_eng_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		hiddenSelections[]=
@@ -2007,7 +2013,7 @@ class CfgWeapons
 	{
 		author="JMax";
 		scope=2;
-		displayName="[399th MI] Engineer Uniform";
+		displayName="[399th MI] Engineer Uniform (E-6)";
 		picture="\JMSST_troops\data\ico\ico_u_jacket_eng_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		hiddenSelections[]=
@@ -2035,7 +2041,7 @@ class CfgWeapons
 	{
 		author="JMax";
 		scope=2;
-		displayName="[399th MI] Engineer Uniform";
+		displayName="[399th MI] Engineer Uniform (E-7)";
 		picture="\JMSST_troops\data\ico\ico_u_jacket_eng_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		hiddenSelections[]=
@@ -2063,7 +2069,7 @@ class CfgWeapons
 	{
 		author="JMax";
 		scope=2;
-		displayName="[399th MI] Engineer Uniform";
+		displayName="[399th MI] Engineer Uniform (E-8)";
 		picture="\JMSST_troops\data\ico\ico_u_jacket_eng_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		hiddenSelections[]=
@@ -2091,7 +2097,7 @@ class CfgWeapons
 	{
 		author="JMax";
 		scope=2;
-		displayName="[399th MI] Engineer Uniform";
+		displayName="[399th MI] Engineer Uniform (O-1)";
 		picture="\JMSST_troops\data\ico\ico_u_jacket_eng_ca.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		hiddenSelections[]=
@@ -2419,6 +2425,37 @@ class CfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"Uniforms\data\vest\ZDN_Vest_Medical_1.paa"
+		};
+		class ItemInfo: VestItem
+		{
+			uniformModel="\JMSST_troops\vests\Agrade.p3d";
+			containerClass="Supply200";
+			mass=2;
+			maximumLoad=250;
+			modelsides[]={6};
+			hiddenSelections[]=
+			{
+				"Camo1"
+			};
+		};
+	};
+	class ZDN_399_Vest_Fleet: JMSST_troops_Agrade_MI
+	{
+		author="JMax";
+		_generalMacro="JMSST_troops_Agrade_MI";
+		scope=2;
+		side=3;
+		armor=2;
+		displayName="[399th MI] Fleet Vest";
+		picture="\JMSST_troops\data\ico\ico_v_Agrade_ca.paa";
+		model="\JMSST_troops\vests\Agrade.p3d";
+		hiddenSelections[]=
+		{
+			"Camo1"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"JMSST_troops\vests\data\agrade_fleet_co.paa"
 		};
 		class ItemInfo: VestItem
 		{
