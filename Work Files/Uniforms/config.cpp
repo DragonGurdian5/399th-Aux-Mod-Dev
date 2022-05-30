@@ -299,6 +299,26 @@ class CfgVehicles
 		{
 			"Uniforms\data\Uniform\ZDN_399_Uniform_Base_co.paa",
 			"Uniforms\data\badges\ZDN_399thMiBadge.paa",
+			"JMSST_troops\data\ranks\pogon_lt_co"
+		};
+	};
+	class ZDN_399_Uniform_Cap: JMSST_troops_MIbody_6th_F
+	{
+		author="JMax";
+		scope=2;
+		modelSides[]={6};
+		model="\JMSST_troops\MIbody.p3d";
+		nakedUniform="U_BasicBody";
+		hiddenSelections[]=
+		{
+			"Camo1",
+			"Camo2",
+			"Camo3"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"Uniforms\data\Uniform\ZDN_399_Uniform_Base_co.paa",
+			"Uniforms\data\badges\ZDN_399thMiBadge.paa",
 			"JMSST_troops\data\ranks\pogon_cap_co"
 		};
 	};
@@ -1211,7 +1231,7 @@ class CfgWeapons
 		{
 			"Uniforms\data\Uniform\ZDN_399_Uniform_Base_co",
 			"Uniforms\data\badges\ZDN_399thMiBadge.paa",
-			"JMSST_troops\data\ranks\pogon_black_co"
+			"JMSST_troops\data\ranks\pogon_lt_co"
 		};
 		class ItemInfo: UniformItem
 		{
@@ -1239,7 +1259,7 @@ class CfgWeapons
 		{
 			"Uniforms\data\Uniform\ZDN_399_Uniform_Base_co",
 			"Uniforms\data\badges\ZDN_399thMiBadge.paa",
-			"JMSST_troops\data\ranks\pogon_black_co"
+			"JMSST_troops\data\ranks\pogon_cap_co"
 		};
 		class ItemInfo: UniformItem
 		{
