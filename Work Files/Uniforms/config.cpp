@@ -1344,7 +1344,7 @@ class CfgWeapons
 		{
 			uniformModel="-";
 			modelSides[] = {6};
-			uniformClass="ZDN_399_Uniform_Maj";
+			uniformClass="ZDN_399_Uniform_Cap";
 			containerClass="Supply100";
 			mass=40;
 		};
@@ -1372,7 +1372,7 @@ class CfgWeapons
 		{
 			uniformModel="-";
 			modelSides[] = {6};
-			uniformClass="ZDN_399_Uniform_F";
+			uniformClass="ZDN_399_Uniform_Maj";
 			containerClass="Supply100";
 			mass=40;
 		};
