@@ -28,7 +28,7 @@ class CfgPatches
 			"ZDN_399_Uniform_Fleet_Wurmstein_Base",
 			"ZDN_399_Uniform_Medic_Drakshaw_Base",
 			"ZDN_399_Uniform_Tac_Base",
-			"ZDN_399_Uniform_Medic_Dolphin_Base"
+			"ZDN_399_Uniform_Medic_Dolphin_Base",
 			"ZDN_399_Vest_Troop_Command_Zaigan",
 			"ZDN_399_Vest_Command_Dragon",
 			"ZDN_399_Vest_Troop_Two_Command_Benji"

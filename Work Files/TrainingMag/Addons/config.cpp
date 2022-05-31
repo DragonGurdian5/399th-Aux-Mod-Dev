@@ -8,7 +8,7 @@ class CfgPatches
 		weapons[]=  // classname from below in cfgWeapons
 		{
 			"JMSST_mk1Rifle",
-			"JMSST_mk1CRifle"
+			"JMSST_mk1CRifle",
 			"JMSST_mk1dmrRifle"
 		}; 
 		magazines[]=  // new classnames down below from cfgMagazines

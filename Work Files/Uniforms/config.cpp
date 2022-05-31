@@ -116,7 +116,6 @@ class CfgVehicles
 {
 	class JMSST_troops_MIbody_6th_F;
 	class B_Kitbag_Base;
-	class ReammoBox;
 	class TFAR_Bag_Base;
 
 	class ZDN_B_Kitbag_Med: B_Kitbag_Base
@@ -175,7 +174,7 @@ class CfgVehicles
 		picture="\JMSST_troops\data\ico\ico_b_c_kitbag_black.paa";
 		scope=2;
 		displayName="[399th MI] Fleet Bag";
-		model="";
+		model="Uniforms\model\Empty_Bag.p3d";
 		tf_encryptionCode="tf_west_radio_code";
 		tf_dialog="rt1523g_radio_dialog";
 		tf_subtype="digital_lr";
