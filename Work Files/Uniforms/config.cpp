@@ -3486,7 +3486,7 @@ class CfgWeapons
 		scope=2;
 		displayName="[399th MI] Infantry Helmet";
 		picture="\JMSST_troops\data\ico\ico_h_M3.paa";
-		model="\JMSST_troops\vests\M3helmet.p3d";
+		model="\jmsst_troops\helmets\m3helmet.p3d";
 		hiddenSelections[]=
 		{
 			"Camo1"
@@ -3503,7 +3503,7 @@ class CfgWeapons
 		scope=2;
 		displayName="[399th MI] Infantry Helmet (Custom)";
 		picture="\JMSST_troops\data\ico\ico_h_M3.paa";
-		model="\JMSST_troops\vests\M3helmet.p3d";
+		model="\jmsst_troops\helmets\m3helmet.p3d";
 		hiddenSelections[]=
 		{
 			"Camo1"
@@ -3520,7 +3520,7 @@ class CfgWeapons
 		scope=2;
 		displayName="[399th MI] Infantry Helmet (Custom)";
 		picture="\JMSST_troops\data\ico\ico_h_M3.paa";
-		model="\JMSST_troops\vests\M3helmet.p3d";
+		model="\jmsst_troops\helmets\m3helmet.p3d";
 		hiddenSelections[]=
 		{
 			"Camo1"
@@ -3537,7 +3537,7 @@ class CfgWeapons
 		scope=2;
 		displayName="[399th MI] Infantry Helmet (Bug Park)";
 		picture="\JMSST_troops\data\ico\ico_h_M3.paa";
-		model="\JMSST_troops\vests\M3helmet.p3d";
+		model="\jmsst_troops\helmets\m3helmet.p3d";
 		hiddenSelections[]=
 		{
 			"Camo1"
@@ -3554,7 +3554,7 @@ class CfgWeapons
 		scope=2;
 		displayName="[399th MI] Medic Helmet";
 		picture="\JMSST_troops\data\ico\ico_h_M3.paa";
-		model="\JMSST_troops\vests\M3helmet.p3d";
+		model="\jmsst_troops\helmets\m3helmet.p3d";
 		hiddenSelections[]=
 		{
 			"Camo1"
@@ -3571,7 +3571,7 @@ class CfgWeapons
 		scope=2;
 		displayName="[399th MI] Medic Helmet (Custom)";
 		picture="\JMSST_troops\data\ico\ico_h_M3.paa";
-		model="\JMSST_troops\vests\M3helmet.p3d";
+		model="\jmsst_troops\helmets\m3helmet.p3d";
 		hiddenSelections[]=
 		{
 			"Camo1"
@@ -3588,7 +3588,7 @@ class CfgWeapons
 		scope=2;
 		displayName="[399th MI] Medic Helmet";
 		picture="\JMSST_troops\data\ico\ico_h_M3.paa";
-		model="\JMSST_troops\vests\M3helmet.p3d";
+		model="\jmsst_troops\helmets\m3helmet.p3d";
 		hiddenSelections[]=
 		{
 			"Camo1"
@@ -3605,7 +3605,7 @@ class CfgWeapons
 		scope=2;
 		displayName="[399th MI] Medic Helmet (Custom)";
 		picture="\JMSST_troops\data\ico\ico_h_M3.paa";
-		model="\JMSST_troops\vests\M3helmet.p3d";
+		model="\jmsst_troops\helmets\m3helmet.p3d";
 		hiddenSelections[]=
 		{
 			"Camo1"
@@ -3622,7 +3622,7 @@ class CfgWeapons
 		scope=2;
 		displayName="[399th MI] Engineer Helmet";
 		picture="\JMSST_troops\data\ico\ico_h_M3.paa";
-		model="\JMSST_troops\vests\M3helmet.p3d";
+		model="\jmsst_troops\helmets\m3helmet.p3d";
 		hiddenSelections[]=
 		{
 			"Camo1"
@@ -3639,7 +3639,7 @@ class CfgWeapons
 		scope=2;
 		displayName="[399th MI] Engineer Helmet (Alt)";
 		picture="\JMSST_troops\data\ico\ico_h_M3.paa";
-		model="\JMSST_troops\vests\M3helmet.p3d";
+		model="\jmsst_troops\helmets\m3helmet.p3d";
 		hiddenSelections[]=
 		{
 			"Camo1"
