@@ -217,7 +217,7 @@ class CfgVehicles
 
 	class ZDN_399_Uniform_F: JMSST_troops_MIbody_6th_F
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		modelSides[]={6};
 		model="\JMSST_troops\MIbody.p3d";
@@ -237,7 +237,7 @@ class CfgVehicles
 	};
 	class ZDN_399_Uniform_Pvt: JMSST_troops_MIbody_6th_F
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		modelSides[]={6};
 		model="\JMSST_troops\MIbody.p3d";
@@ -257,7 +257,7 @@ class CfgVehicles
 	};
 	class ZDN_399_Uniform_PFC: JMSST_troops_MIbody_6th_F
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		modelSides[]={6};
 		model="\JMSST_troops\MIbody.p3d";
@@ -277,7 +277,7 @@ class CfgVehicles
 	};
 	class ZDN_399_Uniform_LCpl: JMSST_troops_MIbody_6th_F
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		modelSides[]={6};
 		model="\JMSST_troops\MIbody.p3d";
@@ -297,7 +297,7 @@ class CfgVehicles
 	};
 	class ZDN_399_Uniform_Cpl: JMSST_troops_MIbody_6th_F
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		modelSides[]={6};
 		model="\JMSST_troops\MIbody.p3d";
@@ -317,7 +317,7 @@ class CfgVehicles
 	};
 	class ZDN_399_Uniform_Sgt: JMSST_troops_MIbody_6th_F
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		modelSides[]={6};
 		model="\JMSST_troops\MIbody.p3d";
@@ -337,7 +337,7 @@ class CfgVehicles
 	};
 	class ZDN_399_Uniform_Ssgt: JMSST_troops_MIbody_6th_F
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		modelSides[]={6};
 		model="\JMSST_troops\MIbody.p3d";
@@ -357,7 +357,7 @@ class CfgVehicles
 	};
 	class ZDN_399_Uniform_MSgt: JMSST_troops_MIbody_6th_F
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		modelSides[]={6};
 		model="\JMSST_troops\MIbody.p3d";
@@ -377,7 +377,7 @@ class CfgVehicles
 	};
 	class ZDN_399_Uniform_SgtMaj: JMSST_troops_MIbody_6th_F
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		modelSides[]={6};
 		model="\JMSST_troops\MIbody.p3d";
@@ -397,7 +397,7 @@ class CfgVehicles
 	};
 	class ZDN_399_Uniform_Lt: JMSST_troops_MIbody_6th_F
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		modelSides[]={6};
 		model="\JMSST_troops\MIbody.p3d";
@@ -417,7 +417,7 @@ class CfgVehicles
 	};
 	class ZDN_399_Uniform_Cap: JMSST_troops_MIbody_6th_F
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		modelSides[]={6};
 		model="\JMSST_troops\MIbody.p3d";
@@ -437,7 +437,7 @@ class CfgVehicles
 	};
 	class ZDN_399_Uniform_Maj: JMSST_troops_MIbody_6th_F
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		modelSides[]={6};
 		model="\JMSST_troops\MIbody.p3d";
@@ -459,7 +459,7 @@ class CfgVehicles
 
 	class ZDN_399_Uniform_Fleet_F: JMSST_troops_MIbody_6th_F
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		modelSides[]={6};
 		model="\JMSST_troops\MIbody.p3d";
@@ -479,7 +479,7 @@ class CfgVehicles
 	};
 	class ZDN_399_Uniform_Fleet_Pvt: JMSST_troops_MIbody_6th_F
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		modelSides[]={6};
 		model="\JMSST_troops\MIbody.p3d";
@@ -499,7 +499,7 @@ class CfgVehicles
 	};
 	class ZDN_399_Uniform_Fleet_PFC: JMSST_troops_MIbody_6th_F
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		modelSides[]={6};
 		model="\JMSST_troops\MIbody.p3d";
@@ -519,7 +519,7 @@ class CfgVehicles
 	};
 	class ZDN_399_Uniform_Fleet_LCpl: JMSST_troops_MIbody_6th_F
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		modelSides[]={6};
 		model="\JMSST_troops\MIbody.p3d";
@@ -539,7 +539,7 @@ class CfgVehicles
 	};
 	class ZDN_399_Uniform_Fleet_Cpl: JMSST_troops_MIbody_6th_F
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		modelSides[]={6};
 		model="\JMSST_troops\MIbody.p3d";
@@ -559,7 +559,7 @@ class CfgVehicles
 	};
 	class ZDN_399_Uniform_Fleet_Sgt: JMSST_troops_MIbody_6th_F
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		modelSides[]={6};
 		model="\JMSST_troops\MIbody.p3d";
@@ -579,7 +579,7 @@ class CfgVehicles
 	};
 	class ZDN_399_Uniform_Fleet_SSgt: JMSST_troops_MIbody_6th_F
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		modelSides[]={6};
 		model="\JMSST_troops\MIbody.p3d";
@@ -599,7 +599,7 @@ class CfgVehicles
 	};
 	class ZDN_399_Uniform_Fleet_MSgt: JMSST_troops_MIbody_6th_F
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		modelSides[]={6};
 		model="\JMSST_troops\MIbody.p3d";
@@ -619,7 +619,7 @@ class CfgVehicles
 	};
 	class ZDN_399_Uniform_Fleet_SgtMaj: JMSST_troops_MIbody_6th_F
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		modelSides[]={6};
 		model="\JMSST_troops\MIbody.p3d";
@@ -639,7 +639,7 @@ class CfgVehicles
 	};
 	class ZDN_399_Uniform_Fleet_Lt: JMSST_troops_MIbody_6th_F
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		modelSides[]={6};
 		model="\JMSST_troops\MIbody.p3d";
@@ -661,7 +661,7 @@ class CfgVehicles
 
 	class ZDN_399_Uniform_Medic_F: JMSST_troops_MIbody_6th_F
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		modelSides[]={6};
 		model="\JMSST_troops\MIbody.p3d";
@@ -681,7 +681,7 @@ class CfgVehicles
 	};
 	class ZDN_399_Uniform_Medic_Pvt: JMSST_troops_MIbody_6th_F
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		modelSides[]={6};
 		model="\JMSST_troops\MIbody.p3d";
@@ -701,7 +701,7 @@ class CfgVehicles
 	};
 	class ZDN_399_Uniform_Medic_PFC: JMSST_troops_MIbody_6th_F
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		modelSides[]={6};
 		model="\JMSST_troops\MIbody.p3d";
@@ -721,7 +721,7 @@ class CfgVehicles
 	};
 	class ZDN_399_Uniform_Medic_LCpl: JMSST_troops_MIbody_6th_F
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		modelSides[]={6};
 		model="\JMSST_troops\MIbody.p3d";
@@ -741,7 +741,7 @@ class CfgVehicles
 	};
 	class ZDN_399_Uniform_Medic_Cpl: JMSST_troops_MIbody_6th_F
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		modelSides[]={6};
 		model="\JMSST_troops\MIbody.p3d";
@@ -761,7 +761,7 @@ class CfgVehicles
 	};
 	class ZDN_399_Uniform_Medic_Sgt: JMSST_troops_MIbody_6th_F
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		modelSides[]={6};
 		model="\JMSST_troops\MIbody.p3d";
@@ -781,7 +781,7 @@ class CfgVehicles
 	};
 	class ZDN_399_Uniform_Medic_SSgt: JMSST_troops_MIbody_6th_F
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		modelSides[]={6};
 		model="\JMSST_troops\MIbody.p3d";
@@ -801,7 +801,7 @@ class CfgVehicles
 	};
 	class ZDN_399_Uniform_Medic_MSgt: JMSST_troops_MIbody_6th_F
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		modelSides[]={6};
 		model="\JMSST_troops\MIbody.p3d";
@@ -821,7 +821,7 @@ class CfgVehicles
 	};
 	class ZDN_399_Uniform_Medic_SgtMaj: JMSST_troops_MIbody_6th_F
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		modelSides[]={6};
 		model="\JMSST_troops\MIbody.p3d";
@@ -841,7 +841,7 @@ class CfgVehicles
 	};
 	class ZDN_399_Uniform_Medic_Lt: JMSST_troops_MIbody_6th_F
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		modelSides[]={6};
 		model="\JMSST_troops\MIbody.p3d";
@@ -863,7 +863,7 @@ class CfgVehicles
 
 	class ZDN_399_Uniform_Engineer_F: JMSST_troops_MIbody_6th_F
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		modelSides[]={6};
 		model="\JMSST_troops\MIbody.p3d";
@@ -883,7 +883,7 @@ class CfgVehicles
 	};
 	class ZDN_399_Uniform_Engineer_Pvt: JMSST_troops_MIbody_6th_F
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		modelSides[]={6};
 		model="\JMSST_troops\MIbody.p3d";
@@ -903,7 +903,7 @@ class CfgVehicles
 	};
 	class ZDN_399_Uniform_Engineer_PFC: JMSST_troops_MIbody_6th_F
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		modelSides[]={6};
 		model="\JMSST_troops\MIbody.p3d";
@@ -923,7 +923,7 @@ class CfgVehicles
 	};
 	class ZDN_399_Uniform_Engineer_LCpl: JMSST_troops_MIbody_6th_F
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		modelSides[]={6};
 		model="\JMSST_troops\MIbody.p3d";
@@ -943,7 +943,7 @@ class CfgVehicles
 	};
 	class ZDN_399_Uniform_Engineer_Cpl: JMSST_troops_MIbody_6th_F
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		modelSides[]={6};
 		model="\JMSST_troops\MIbody.p3d";
@@ -963,7 +963,7 @@ class CfgVehicles
 	};
 	class ZDN_399_Uniform_Engineer_Sgt: JMSST_troops_MIbody_6th_F
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		modelSides[]={6};
 		model="\JMSST_troops\MIbody.p3d";
@@ -983,7 +983,7 @@ class CfgVehicles
 	};
 	class ZDN_399_Uniform_Engineer_SSgt: JMSST_troops_MIbody_6th_F
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		modelSides[]={6};
 		model="\JMSST_troops\MIbody.p3d";
@@ -1003,7 +1003,7 @@ class CfgVehicles
 	};
 	class ZDN_399_Uniform_Engineer_MSgt: JMSST_troops_MIbody_6th_F
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		modelSides[]={6};
 		model="\JMSST_troops\MIbody.p3d";
@@ -1023,7 +1023,7 @@ class CfgVehicles
 	};
 	class ZDN_399_Uniform_Engineer_SergMaj: JMSST_troops_MIbody_6th_F
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		modelSides[]={6};
 		model="\JMSST_troops\MIbody.p3d";
@@ -1043,7 +1043,7 @@ class CfgVehicles
 	};
 	class ZDN_399_Uniform_Engineer_Lt: JMSST_troops_MIbody_6th_F
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		modelSides[]={6};
 		model="\JMSST_troops\MIbody.p3d";
@@ -1077,7 +1077,7 @@ class CfgWeapons
 
 	class ZDN_399_Uniform_Base: JMSST_troops_MIbody_6th_F_CombatUniform
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		displayName="[399th MI] Infantry Uniform (Recruit)";
 		picture="\JMSST_troops\data\ico\ico_u_jacket_ca.paa";
@@ -1105,7 +1105,7 @@ class CfgWeapons
 	};
 	class ZDN_399_Uniform_Private: JMSST_troops_MIbody_6th_F_CombatUniform
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		displayName="[399th MI] Infantry Uniform (E-1)";
 		picture="\JMSST_troops\data\ico\ico_u_jacket_ca.paa";
@@ -1133,7 +1133,7 @@ class CfgWeapons
 	};
 	class ZDN_399_Uniform_PrivateFirstClass: JMSST_troops_MIbody_6th_F_CombatUniform
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		displayName="[399th MI] Infantry Uniform (E-2)";
 		picture="\JMSST_troops\data\ico\ico_u_jacket_ca.paa";
@@ -1161,7 +1161,7 @@ class CfgWeapons
 	};
 	class ZDN_399_Uniform_LanceCorporal: JMSST_troops_MIbody_6th_F_CombatUniform
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		displayName="[399th MI] Infantry Uniform (E-3)";
 		picture="\JMSST_troops\data\ico\ico_u_jacket_ca.paa";
@@ -1189,7 +1189,7 @@ class CfgWeapons
 	};
 	class ZDN_399_Uniform_Corporal: JMSST_troops_MIbody_6th_F_CombatUniform
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		displayName="[399th MI] Infantry Uniform (E-4)";
 		picture="\JMSST_troops\data\ico\ico_u_jacket_ca.paa";
@@ -1217,7 +1217,7 @@ class CfgWeapons
 	};
 	class ZDN_399_Uniform_Sergeant: JMSST_troops_MIbody_6th_F_CombatUniform
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		displayName="[399th MI] Infantry Uniform (E-5)";
 		picture="\JMSST_troops\data\ico\ico_u_jacket_ca.paa";
@@ -1245,7 +1245,7 @@ class CfgWeapons
 	};
 	class ZDN_399_Uniform_StaffSergeant: JMSST_troops_MIbody_6th_F_CombatUniform
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		displayName="[399th MI] Infantry Uniform (E-6)";
 		picture="\JMSST_troops\data\ico\ico_u_jacket_ca.paa";
@@ -1273,7 +1273,7 @@ class CfgWeapons
 	};
 	class ZDN_399_Uniform_MasterSergeant: JMSST_troops_MIbody_6th_F_CombatUniform
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		displayName="[399th MI] Infantry Uniform (E-7)";
 		picture="\JMSST_troops\data\ico\ico_u_jacket_ca.paa";
@@ -1301,7 +1301,7 @@ class CfgWeapons
 	};
 	class ZDN_399_Uniform_SergeantMajor: JMSST_troops_MIbody_6th_F_CombatUniform
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		displayName="[399th MI] Infantry Uniform (E-8)";
 		picture="\JMSST_troops\data\ico\ico_u_jacket_ca.paa";
@@ -1329,7 +1329,7 @@ class CfgWeapons
 	};
 	class ZDN_399_Uniform_Lieutenant: JMSST_troops_MIbody_6th_F_CombatUniform
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		displayName="[399th MI] Infantry Uniform (O-1)";
 		picture="\JMSST_troops\data\ico\ico_u_jacket_ca.paa";
@@ -1357,7 +1357,7 @@ class CfgWeapons
 	};
 	class ZDN_399_Uniform_Captain: JMSST_troops_MIbody_6th_F_CombatUniform
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		displayName="[399th MI] Infantry Uniform (O-2)";
 		picture="\JMSST_troops\data\ico\ico_u_jacket_ca.paa";
@@ -1385,7 +1385,7 @@ class CfgWeapons
 	};
 	class ZDN_399_Uniform_Major: JMSST_troops_MIbody_6th_F_CombatUniform
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		displayName="[399th MI] Infantry Uniform (O-3)";
 		picture="\JMSST_troops\data\ico\ico_u_jacket_ca.paa";
@@ -1414,7 +1414,7 @@ class CfgWeapons
 
 	class ZDN_399_Uniform_Fleet_Base: JMSST_troops_MIbody_6th_F_CombatUniform
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		displayName="[399th MI] Fleet Uniform (Recruit)";
 		picture="\JMSST_troops\data\ico\ico_u_jacketFleet_ca.paa";
@@ -1442,7 +1442,7 @@ class CfgWeapons
 	};
 	class ZDN_399_Uniform_Fleet_Private: JMSST_troops_MIbody_6th_F_CombatUniform
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		displayName="[399th MI] Fleet Uniform (E-1)";
 		picture="\JMSST_troops\data\ico\ico_u_jacketFleet_ca.paa";
@@ -1470,7 +1470,7 @@ class CfgWeapons
 	};
 	class ZDN_399_Uniform_Fleet_PrivateFirstClass: JMSST_troops_MIbody_6th_F_CombatUniform
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		displayName="[399th MI] Fleet Uniform (E-2)";
 		picture="\JMSST_troops\data\ico\ico_u_jacketFleet_ca.paa";
@@ -1498,7 +1498,7 @@ class CfgWeapons
 	};
 	class ZDN_399_Uniform_Fleet_LanceCorporal: JMSST_troops_MIbody_6th_F_CombatUniform
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		displayName="[399th MI] Fleet Uniform (E-3)";
 		picture="\JMSST_troops\data\ico\ico_u_jacketFleet_ca.paa";
@@ -1526,7 +1526,7 @@ class CfgWeapons
 	};
 	class ZDN_399_Uniform_Fleet_Corporal: JMSST_troops_MIbody_6th_F_CombatUniform
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		displayName="[399th MI] Fleet Uniform (E-4)";
 		picture="\JMSST_troops\data\ico\ico_u_jacketFleet_ca.paa";
@@ -1554,7 +1554,7 @@ class CfgWeapons
 	};
 	class ZDN_399_Uniform_Fleet_Sergeant: JMSST_troops_MIbody_6th_F_CombatUniform
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		displayName="[399th MI] Fleet Uniform (E-5)";
 		picture="\JMSST_troops\data\ico\ico_u_jacketFleet_ca.paa";
@@ -1582,7 +1582,7 @@ class CfgWeapons
 	};
 	class ZDN_399_Uniform_Fleet_StaffSergeant: JMSST_troops_MIbody_6th_F_CombatUniform
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		displayName="[399th MI] Fleet Uniform (E-6)";
 		picture="\JMSST_troops\data\ico\ico_u_jacketFleet_ca.paa";
@@ -1610,7 +1610,7 @@ class CfgWeapons
 	};
 	class ZDN_399_Uniform_Fleet_MasterSergeant: JMSST_troops_MIbody_6th_F_CombatUniform
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		displayName="[399th MI] Fleet Uniform (E-7)";
 		picture="\JMSST_troops\data\ico\ico_u_jacketFleet_ca.paa";
@@ -1638,7 +1638,7 @@ class CfgWeapons
 	};
 	class ZDN_399_Uniform_Fleet_SergeantMajor: JMSST_troops_MIbody_6th_F_CombatUniform
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		displayName="[399th MI] Fleet Uniform (E-8)";
 		picture="\JMSST_troops\data\ico\ico_u_jacketFleet_ca.paa";
@@ -1666,7 +1666,7 @@ class CfgWeapons
 	};
 	class ZDN_399_Uniform_Fleet_Lieutenant: JMSST_troops_MIbody_6th_F_CombatUniform
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		displayName="[399th MI] Fleet Uniform (O-1)";
 		picture="\JMSST_troops\data\ico\ico_u_jacketFleet_ca.paa";
@@ -1695,7 +1695,7 @@ class CfgWeapons
 
 	class ZDN_399_Uniform_Medic_Base: JMSST_troops_MIbody_6th_F_CombatUniform
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		displayName="[399th MI] Medic Uniform (Recruit)";
 		picture="\JMSST_troops\data\ico\ico_u_jacket_med_ca.paa";
@@ -1723,7 +1723,7 @@ class CfgWeapons
 	};
 	class ZDN_399_Uniform_Medic_Private: JMSST_troops_MIbody_6th_F_CombatUniform
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		displayName="[399th MI] Medic Uniform (E-1)";
 		picture="\JMSST_troops\data\ico\ico_u_jacket_med_ca.paa";
@@ -1751,7 +1751,7 @@ class CfgWeapons
 	};
 	class ZDN_399_Uniform_Medic_PrivateFirstClass: JMSST_troops_MIbody_6th_F_CombatUniform
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		displayName="[399th MI] Medic Uniform (E-2)";
 		picture="\JMSST_troops\data\ico\ico_u_jacket_med_ca.paa";
@@ -1779,7 +1779,7 @@ class CfgWeapons
 	};
 	class ZDN_399_Uniform_Medic_LanceCorporal: JMSST_troops_MIbody_6th_F_CombatUniform
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		displayName="[399th MI] Medic Uniform (E-3)";
 		picture="\JMSST_troops\data\ico\ico_u_jacket_med_ca.paa";
@@ -1807,7 +1807,7 @@ class CfgWeapons
 	};
 	class ZDN_399_Uniform_Medic_Corporal: JMSST_troops_MIbody_6th_F_CombatUniform
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		displayName="[399th MI] Medic Uniform (E-4)";
 		picture="\JMSST_troops\data\ico\ico_u_jacket_med_ca.paa";
@@ -1835,7 +1835,7 @@ class CfgWeapons
 	};
 	class ZDN_399_Uniform_Medic_Sergeant: JMSST_troops_MIbody_6th_F_CombatUniform
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		displayName="[399th MI] Medic Uniform (E-5)";
 		picture="\JMSST_troops\data\ico\ico_u_jacket_med_ca.paa";
@@ -1863,7 +1863,7 @@ class CfgWeapons
 	};
 	class ZDN_399_Uniform_Medic_StaffSergeant: JMSST_troops_MIbody_6th_F_CombatUniform
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		displayName="[399th MI] Medic Uniform (E-6)";
 		picture="\JMSST_troops\data\ico\ico_u_jacket_med_ca.paa";
@@ -1891,7 +1891,7 @@ class CfgWeapons
 	};
 	class ZDN_399_Uniform_Medic_MasterSergeant: JMSST_troops_MIbody_6th_F_CombatUniform
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		displayName="[399th MI] Medic Uniform (E-7)";
 		picture="\JMSST_troops\data\ico\ico_u_jacket_med_ca.paa";
@@ -1919,7 +1919,7 @@ class CfgWeapons
 	};
 	class ZDN_399_Uniform_Medic_SergeantMajor: JMSST_troops_MIbody_6th_F_CombatUniform
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		displayName="[399th MI] Medic Uniform (E-8)";
 		picture="\JMSST_troops\data\ico\ico_u_jacket_med_ca.paa";
@@ -1947,7 +1947,7 @@ class CfgWeapons
 	};
 	class ZDN_399_Uniform_Medic_Lieutenant: JMSST_troops_MIbody_6th_F_CombatUniform
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		displayName="[399th MI] Medic Uniform (O-1)";
 		picture="\JMSST_troops\data\ico\ico_u_jacket_med_ca.paa";
@@ -1976,7 +1976,7 @@ class CfgWeapons
 
 	class ZDN_399_Uniform_Engineer_Base: JMSST_troops_MIbody_6th_F_CombatUniform
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		displayName="[399th MI] Engineer Uniform (Recruit)";
 		picture="\JMSST_troops\data\ico\ico_u_jacket_eng_ca.paa";
@@ -2004,7 +2004,7 @@ class CfgWeapons
 	};
 	class ZDN_399_Uniform_Engineer_Private: JMSST_troops_MIbody_6th_F_CombatUniform
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		displayName="[399th MI] Engineer Uniform (E-1)";
 		picture="\JMSST_troops\data\ico\ico_u_jacket_eng_ca.paa";
@@ -2032,7 +2032,7 @@ class CfgWeapons
 	};
 	class ZDN_399_Uniform_Engineer_PrivateFirstClass: JMSST_troops_MIbody_6th_F_CombatUniform
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		displayName="[399th MI] Engineer Uniform (E-2)";
 		picture="\JMSST_troops\data\ico\ico_u_jacket_eng_ca.paa";
@@ -2060,7 +2060,7 @@ class CfgWeapons
 	};
 	class ZDN_399_Uniform_Engineer_LanceCorporal: JMSST_troops_MIbody_6th_F_CombatUniform
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		displayName="[399th MI] Engineer Uniform (E-3)";
 		picture="\JMSST_troops\data\ico\ico_u_jacket_eng_ca.paa";
@@ -2088,7 +2088,7 @@ class CfgWeapons
 	};
 	class ZDN_399_Uniform_Engineer_Corporal: JMSST_troops_MIbody_6th_F_CombatUniform
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		displayName="[399th MI] Engineer Uniform (E-4)";
 		picture="\JMSST_troops\data\ico\ico_u_jacket_eng_ca.paa";
@@ -2116,7 +2116,7 @@ class CfgWeapons
 	};
 	class ZDN_399_Uniform_Engineer_Sergeant: JMSST_troops_MIbody_6th_F_CombatUniform
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		displayName="[399th MI] Engineer Uniform (E-5)";
 		picture="\JMSST_troops\data\ico\ico_u_jacket_eng_ca.paa";
@@ -2144,7 +2144,7 @@ class CfgWeapons
 	};
 	class ZDN_399_Uniform_Engineer_StaffSergeant: JMSST_troops_MIbody_6th_F_CombatUniform
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		displayName="[399th MI] Engineer Uniform (E-6)";
 		picture="\JMSST_troops\data\ico\ico_u_jacket_eng_ca.paa";
@@ -2172,7 +2172,7 @@ class CfgWeapons
 	};
 	class ZDN_399_Uniform_Engineer_MasterSergeant: JMSST_troops_MIbody_6th_F_CombatUniform
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		displayName="[399th MI] Engineer Uniform (E-7)";
 		picture="\JMSST_troops\data\ico\ico_u_jacket_eng_ca.paa";
@@ -2200,7 +2200,7 @@ class CfgWeapons
 	};
 	class ZDN_399_Uniform_Engineer_SergeantMajor: JMSST_troops_MIbody_6th_F_CombatUniform
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		displayName="[399th MI] Engineer Uniform (E-8)";
 		picture="\JMSST_troops\data\ico\ico_u_jacket_eng_ca.paa";
@@ -2228,7 +2228,7 @@ class CfgWeapons
 	};
 	class ZDN_399_Uniform_Engineer_Lieutenant: JMSST_troops_MIbody_6th_F_CombatUniform
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		scope=2;
 		displayName="[399th MI] Engineer Uniform (O-1)";
 		picture="\JMSST_troops\data\ico\ico_u_jacket_eng_ca.paa";
@@ -2267,7 +2267,7 @@ class CfgWeapons
 	
 	class ZDN_399_Vest_Base: JMSST_troops_Agrade_MI
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		_generalMacro="JMSST_troops_Agrade_MI";
 		scope=2;
 		side=3;
@@ -2336,7 +2336,7 @@ class CfgWeapons
 	};
 	class ZDN_399_Vest_Command: JMSST_troops_Agrade_MI
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		_generalMacro="JMSST_troops_Agrade_MI";
 		scope=2;
 		side=3;
@@ -2405,7 +2405,7 @@ class CfgWeapons
 	};
 	class ZDN_399_Vest_EngFull: JMSST_troops_Agrade_MI
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		_generalMacro="JMSST_troops_Agrade_MI";
 		scope=2;
 		side=3;
@@ -2474,7 +2474,7 @@ class CfgWeapons
 	};
 	class ZDN_399_Vest_EngStripe: JMSST_troops_Agrade_MI
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		_generalMacro="JMSST_troops_Agrade_MI";
 		scope=2;
 		side=3;
@@ -2543,7 +2543,7 @@ class CfgWeapons
 	};
 	class ZDN_399_Vest_Medic: JMSST_troops_Agrade_MI
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		_generalMacro="JMSST_troops_Agrade_MI";
 		scope=2;
 		side=3;
@@ -2574,7 +2574,7 @@ class CfgWeapons
 	};
 	class ZDN_399_Vest_Fleet: JMSST_troops_Agrade_MI
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		_generalMacro="JMSST_troops_Agrade_MI";
 		scope=2;
 		side=3;
@@ -2606,7 +2606,7 @@ class CfgWeapons
 
 	class ZDN_399_Vest_Troop_Base: JMSST_troops_Agrade_troop_MI
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		_generalMacro="JMSST_troops_Agrade_troop_MI";
 		scope=2;
 		side=3;
@@ -2675,7 +2675,7 @@ class CfgWeapons
 	};
 	class ZDN_399_Vest_Troop_Command: JMSST_troops_Agrade_troop_MI
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		_generalMacro="JMSST_troops_Agrade_troop_MI";
 		scope=2;
 		side=3;
@@ -2744,7 +2744,7 @@ class CfgWeapons
 	};
 	class ZDN_399_Vest_Troop_EngFull: JMSST_troops_Agrade_troop_MI
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		_generalMacro="JMSST_troops_Agrade_troop_MI";
 		scope=2;
 		side=3;
@@ -2813,7 +2813,7 @@ class CfgWeapons
 	};
 	class ZDN_399_Vest_Troop_EngStripe: JMSST_troops_Agrade_troop_MI
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		_generalMacro="JMSST_troops_Agrade_troop_MI";
 		scope=2;
 		side=3;
@@ -2882,7 +2882,7 @@ class CfgWeapons
 	};
 	class ZDN_399_Vest_Troop_Medic: JMSST_troops_Agrade_troop_MI
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		_generalMacro="JMSST_troops_Agrade_troop_MI";
 		scope=2;
 		side=3;
@@ -2952,7 +2952,7 @@ class CfgWeapons
 
 	class ZDN_399_Vest_Troop_Two_Base: JMSST_troops_Agrade_troop2_MI
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		_generalMacro="JMSST_troops_Agrade_troop2_MI";
 		scope=2;
 		side=3;
@@ -3021,7 +3021,7 @@ class CfgWeapons
 	};
 	class ZDN_399_Vest_Troop_Two_Command: JMSST_troops_Agrade_troop2_MI
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		_generalMacro="JMSST_troops_Agrade_troop2_MI";
 		scope=2;
 		side=3;
@@ -3090,7 +3090,7 @@ class CfgWeapons
 	};
 	class ZDN_399_Vest_Troop_Two_EngFull: JMSST_troops_Agrade_troop2_MI
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		_generalMacro="JMSST_troops_Agrade_troop2_MI";
 		scope=2;
 		side=3;
@@ -3159,7 +3159,7 @@ class CfgWeapons
 	};
 	class ZDN_399_Vest_Troop_Two_EngStripe: JMSST_troops_Agrade_troop2_MI
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		_generalMacro="JMSST_troops_Agrade_troop2_MI";
 		scope=2;
 		side=3;
@@ -3228,7 +3228,7 @@ class CfgWeapons
 	};
 	class ZDN_399_Vest_Troop_Two_Medic: JMSST_troops_Agrade_troop2_MI
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		_generalMacro="JMSST_troops_Agrade_troop2_MI";
 		scope=2;
 		side=3;
@@ -3298,7 +3298,7 @@ class CfgWeapons
 	
 	class ZDN_399_Vest_Troop_Bandolier_Base: JMSST_troops_Agrade_troopBand_MI
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		_generalMacro="JMSST_troops_Agrade_troopBand_MI";
 		scope=2;
 		side=3;
@@ -3367,7 +3367,7 @@ class CfgWeapons
 	};
 	class ZDN_399_Vest_Troop_Bandolier_Command: JMSST_troops_Agrade_troopBand_MI
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		_generalMacro="JMSST_troops_Agrade_troopBand_MI";
 		scope=2;
 		side=3;
@@ -3437,7 +3437,7 @@ class CfgWeapons
 
 	class ZDN_399_Vest_Troop_Grenadier_Base: JMSST_troops_Agrade_gl_MI
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		_generalMacro="JMSST_troops_Agrade_gl_MI";
 		scope=2;
 		side=3;
@@ -3508,14 +3508,14 @@ class CfgWeapons
 	// ########################################################
 	// ######################## HELMET ########################
 	// ########################################################	
-	
+
 	class JMSST_troops_M3_helmet;
 	class JMSST_troops_M3air_helmet;
 	class JMSST_troops_cap;
 
   	class ZDN_399_Helmet_Base: JMSST_troops_M3_helmet
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		weaponPoolAvailable = 1;
 		scope=2;
 		displayName="[399th MI] Infantry Helmet";
@@ -3534,7 +3534,7 @@ class CfgWeapons
 	};
   	class ZDN_399_Helmet_Custom_One: JMSST_troops_M3_helmet
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		weaponPoolAvailable = 1;
 		scope=2;
 		displayName="[399th MI] Infantry Helmet (Custom)";
@@ -3553,7 +3553,7 @@ class CfgWeapons
 	};
   	class ZDN_399_Helmet_Custom_Two: JMSST_troops_M3_helmet
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		weaponPoolAvailable = 1;
 		scope=2;
 		displayName="[399th MI] Infantry Helmet (Custom)";
@@ -3572,7 +3572,7 @@ class CfgWeapons
 	};
   	class ZDN_399_Helmet_Custom_Three: JMSST_troops_M3_helmet
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		weaponPoolAvailable = 1;
 		scope=2;
 		displayName="[399th MI] Infantry Helmet (Bug Park)";
@@ -3591,7 +3591,7 @@ class CfgWeapons
 	};
   	class ZDN_399_Helmet_Medic_Base: JMSST_troops_M3_helmet
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		weaponPoolAvailable = 1;
 		scope=2;
 		displayName="[399th MI] Medic Helmet";
@@ -3610,7 +3610,7 @@ class CfgWeapons
 	};
   	class ZDN_399_Helmet_Medic_Custom_One: JMSST_troops_M3_helmet
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		weaponPoolAvailable = 1;
 		scope=2;
 		displayName="[399th MI] Medic Helmet (Custom)";
@@ -3629,7 +3629,7 @@ class CfgWeapons
 	};
   	class ZDN_399_Helmet_Medic_Custom_Two: JMSST_troops_M3_helmet
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		weaponPoolAvailable = 1;
 		scope=2;
 		displayName="[399th MI] Medic Helmet";
@@ -3648,7 +3648,7 @@ class CfgWeapons
 	};
   	class ZDN_399_Helmet_Medic_Custom_Three: JMSST_troops_M3_helmet
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		weaponPoolAvailable = 1;
 		scope=2;
 		displayName="[399th MI] Medic Helmet (Custom)";
@@ -3667,7 +3667,7 @@ class CfgWeapons
 	};
   	class ZDN_399_Helmet_Engineer: JMSST_troops_M3_helmet
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		weaponPoolAvailable = 1;
 		scope=2;
 		displayName="[399th MI] Engineer Helmet";
@@ -3686,7 +3686,7 @@ class CfgWeapons
 	};
   	class ZDN_399_Helmet_Engineer_Custom: JMSST_troops_M3_helmet
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		weaponPoolAvailable = 1;
 		scope=2;
 		displayName="[399th MI] Engineer Helmet (Alt)";
@@ -3706,7 +3706,7 @@ class CfgWeapons
 
 	class ZDN_399_Helmet_Fleet_Base: JMSST_troops_M3air_helmet
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		weaponPoolAvailable = 1;
 		scope=2;
 		displayName="[399th MI] Fleet Helmet (Airtight)";
@@ -3724,11 +3724,15 @@ class CfgWeapons
 		};
 		ace_hearing_protection = 1.00; // Protection against Deafening
 		ace_hearing_lowerVolume = 0.70; // Lowers Volume with Helmet On
+		subitems[]=
+		{
+			"Integrated_NVG_TI_1_F"
+		};
 	};
 
   	class ZDN_399_Cap: JMSST_troops_cap
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		weaponPoolAvailable = 1;
 		scope=2;
 		displayName="[399th MI] Patrol Cap (Basic)";
@@ -3745,7 +3749,7 @@ class CfgWeapons
 	};
   	class ZDN_399_Medic_Cap: JMSST_troops_cap
 	{
-		author="JMax";
+		author="Jmax (Originally), Zaigan (Retexture)";
 		weaponPoolAvailable = 1;
 		scope=2;
 		displayName="[399th MI] Patrol Cap (Medic) Cap (Basic)";
