@@ -3729,6 +3729,31 @@ class CfgWeapons
 			"Integrated_NVG_TI_1_F"
 		};
 	};
+	class ZDN_399_Helmet_Fleet2_Base: JMSST_troops_M3air_helmet
+	{
+		author="Jmax (Originally), Zaigan (Retexture)";
+		weaponPoolAvailable = 1;
+		scope=2;
+		displayName="[399th MI] Fleet Helmet (Airtight) (Test)";
+		picture="\JMSST_troops\data\ico\ico_h_M3al.paa";
+		model="JMSST_troops\helmets\M3helmet_air.p3d";
+		hiddenSelections[]=
+		{
+			"Camo1",
+			"Camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\JMSST_troops\helmets\data\M3_fleet_co.paa",
+			"Uniforms\data\helmets\2bw_helm_black_co.paa"
+		};
+		ace_hearing_protection = 1.00; // Protection against Deafening
+		ace_hearing_lowerVolume = 0.70; // Lowers Volume with Helmet On
+		subitems[]=
+		{
+			"Integrated_NVG_TI_0_F"
+		};
+	};
 
   	class ZDN_399_Cap: JMSST_troops_cap
 	{
