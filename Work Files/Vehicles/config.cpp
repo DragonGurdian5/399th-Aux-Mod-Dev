@@ -9,15 +9,14 @@ class CfgPatches
 			"ZDN_UAV_Federation",
 			"ZDN_MBT_Arty_Federation",
 			"ZDN_MBT_Federation_Cannon",
-			"ZDN_MBT_Federation",
+			"ZDN_MLRS_Federation",
 			"ZDN_Badger_Federation",
 			"ZDN_MATV_Federation",
 			"ZDN_MATV_Federation_HMG",
 			"ZDN_MATV_Federation_GMG",
 			"ZDN_V44XB_Armed_Federation",
 			"ZDN_V44XB_Vehicle_Federation",
-			"ZDN_V44XB_Infantry_Federation",
-
+			"ZDN_V44XB_Infantry_Federation"
 		};
 		weapons[]={};
 		requiredVersion=1;
@@ -200,7 +199,7 @@ class CfgVehicles
 
 	class ZDN_MLRS_Federation: B_MBT_01_mlrs_F
 	{
-		_generalMacro="MBT_Federation";
+		_generalMacro="MLRS_Federation";
 		side=1;
 		faction="Federation";
 		displayName="'Tarantula' MLRS";

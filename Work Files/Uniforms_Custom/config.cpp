@@ -12,18 +12,33 @@ class CfgPatches
 		requiredVersion=0.1;
 		units[]=
 		{
-			"ZDN_399_Uniform_F"
+			"ZDN_399_Uniform_Zaigan_F",
+			"ZDN_399_Uniform_Dragon_F",
+			"ZDN_399_Uniform_Benji_F",
+			"ZDN_399_Uniform_Wurmstein_F",
+			"ZDN_399_Uniform_Drakshaw_F",
+			"ZDN_399_Uniform_Tac_F",
+			"ZDN_399_Uniform_Dolphin_F"
 		};
 		weapons[]=
 		{
-			"ZDN_399_Uniform_Base"
+			"ZDN_399_Uniform_Zaigan_Base",
+			"ZDN_399_Uniform_Fleet_Dragon_Base",
+			"ZDN_399_Uniform_Engineer_Benji_Base",
+			"ZDN_399_Uniform_Fleet_Wurmstein_Base",
+			"ZDN_399_Uniform_Medic_Drakshaw_Base",
+			"ZDN_399_Uniform_Tac_Base",
+			"ZDN_399_Uniform_Medic_Dolphin_Base"
+			"ZDN_399_Vest_Troop_Command_Zaigan",
+			"ZDN_399_Vest_Command_Dragon",
+			"ZDN_399_Vest_Troop_Two_Command_Benji"
 		};
 	};
 };
 
 class cfgFactionClasses
 {
-	class Federation
+	class Federation_Custom
 	{
 		icon="";
 		displayName="399th Mobile Infantry (Custom)";
