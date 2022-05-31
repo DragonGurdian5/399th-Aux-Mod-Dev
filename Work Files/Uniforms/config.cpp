@@ -212,6 +212,7 @@ class CfgVehicles
 		tf_dialog="rt1523g_radio_dialog";
 		tf_subtype="digital_lr";
 		containerClass="Supply1200";
+		maximumLoad=1200;
 	};
 
 	class ZDN_399_Uniform_F: JMSST_troops_MIbody_6th_F
