@@ -5,18 +5,20 @@ class CfgPatches
 	class MoritaMag_training // replace this with the mag classname, append _training
 	{
 		units[]				= {};
-		weapons[]=  // classname from below in cfgWeapons
+		weapons[]			=  // classname from below in cfgWeapons
 		{
 			"JMSST_mk1Rifle",
 			"JMSST_mk1CRifle",
 			"JMSST_mk1dmrRifle"
 		}; 
-		magazines[]=  // new classnames down below from cfgMagazines
+		magazines[]			=  // new classnames down below from cfgMagazines
 		{
 			"ZDN_75rnd_762x51_MoritaMag_Training",
 			"ZDN_75rnd_762x51_MoritaMag_Rubber",
 			"ZDN_75rnd_762x51_MoritaMag_Live",
-			"ZDN_30rnd_762x51_MoritaMag_Live_AP"
+			"ZDN_30rnd_762x51_MoritaMag_Live_AP",
+			"ZDN_36rnd_762x51_MoritaMag_Live_TAP",
+			"ZDN_75rnd_762x51_MoritaMag_Live_Tracer"
 		};
 		requiredVersion		= 0.1;
 		requiredAddons[]	= {"A3_Weapons_F"};
@@ -28,39 +30,58 @@ class CfgPatches
 class CfgMagazines
 {
 	class JMSST_75Rnd_762x51_MoritaMag; // you can get this by running "copyToClipboard currentMagazine player"
-	class JMSST_100Rnd_762x51_MoritaMag;
 
 	class ZDN_75rnd_762x51_MoritaMag_Training: JMSST_75Rnd_762x51_MoritaMag
 	{
 		scope				= 2;
 		author				= "DragonGurdian5";
 		displayname			= "75rnd 7.62x51mm (Blanks)";
-		ammo = "Paintball_Blank";
-		count = "75"; // change to the amount of bullets you want mag to have
+		ammo 				= "Paintball_Blank";
+		count 				= "75"; // change to the amount of bullets you want mag to have
 	};
 	class ZDN_75rnd_762x51_MoritaMag_Rubber: JMSST_75Rnd_762x51_MoritaMag
 	{
 		scope				= 2;
 		author				= "DragonGurdian5";
 		displayname			= "75rnd 7.62x51mm (Rubber)";
-		ammo = "Rubber_Bullet";
-		count = "75"; // change to the amount of bullets you want mag to have
+		ammo 				= "Rubber_Bullet";
+		count 				= "75"; // change to the amount of bullets you want mag to have
 	};
 	class ZDN_75rnd_762x51_MoritaMag_Live: JMSST_75Rnd_762x51_MoritaMag
 	{
 		scope				= 2;
 		author				= "DragonGurdian5";
 		displayname			= "75rnd 7.62x51mm (Live)";
-		ammo = "JMSST_762x51_Ammo";
-		count = "75"; // change to the amount of bullets you want mag to have
+		ammo 				= "JMSST_762x51_Ammo";
+		count 				= "75"; // change to the amount of bullets you want mag to have
 	};
-	class ZDN_30rnd_762x51_MoritaMag_Live_AP: JMSST_75Rnd_762x51_MoritaMag
+	class ZDN_36rnd_762x51_MoritaMag_Live_AP: JMSST_75Rnd_762x51_MoritaMag
 	{
 		scope				= 2;
 		author				= "DragonGurdian5";
-		displayname			= "30rnd 7.62x51mm (Live) (AP)";
-		ammo = "ZDN_762x51mm_AP_Ammo";
-		count = "30"; // change to the amount of bullets you want mag to have
+		displayname			= "36rnd 7.62x51mm (Live) (AP)";
+		ammo 				= "ZDN_762x51mm_AP_Ammo";
+		count 				= "36"; // change to the amount of bullets you want mag to have
+	};
+	class ZDN_36rnd_762x51_MoritaMag_Live_TAP: JMSST_75Rnd_762x51_MoritaMag
+	{
+		scope				= 2;
+		author				= "DragonGurdian5";
+		displayname			= "36rnd 7.62x51mm (Live) (TAP)";
+		ammo 				= "ZDN_762x51mm_TAP_Ammo";
+		count 				= "36"; // change to the amount of bullets you want mag to have
+		tracersEvery		= 3;
+		lastRoundsTracer	= 6;
+	};
+	class ZDN_75rnd_762x51_MoritaMag_Live_Tracer: JMSST_75Rnd_762x51_MoritaMag
+	{
+		scope				= 2;
+		author				= "DragonGurdian5";
+		displayname			= "75rnd 7.62x51mm (Live) (Tracer)";
+		ammo 				= "ZDN_762x51mm_T_Ammo";
+		count 				= "75"; // change to the amount of bullets you want mag to have
+		tracersEvery		= 5;
+		lastRoundsTracer	= 5;
 	};
 };
 
@@ -74,6 +95,7 @@ class cfgWeapons
 			"ZDN_75rnd_762x51_MoritaMag_Training",
 			"ZDN_75rnd_762x51_MoritaMag_Rubber",
 			"ZDN_75rnd_762x51_MoritaMag_Live",
+			"ZDN_75rnd_762x51_MoritaMag_Live_Tracer"
 		};
 	};
 	class JMSST_mk1CRifle: JMSST_Rifle_Base_F_Base
@@ -83,6 +105,7 @@ class cfgWeapons
 			"ZDN_75rnd_762x51_MoritaMag_Training",
 			"ZDN_75rnd_762x51_MoritaMag_Rubber",
 			"ZDN_75rnd_762x51_MoritaMag_Live",
+			"ZDN_75rnd_762x51_MoritaMag_Live_Tracer"
 		};
 	};
 	class JMSST_mk1dmrRifle: JMSST_Rifle_Base_F_Base
@@ -92,7 +115,8 @@ class cfgWeapons
 			"ZDN_75rnd_762x51_MoritaMag_Training",
 			"ZDN_75rnd_762x51_MoritaMag_Rubber",
 			"ZDN_75rnd_762x51_MoritaMag_Live",
-			"ZDN_30rnd_762x51_MoritaMag_Live_AP"
+			"ZDN_30rnd_762x51_MoritaMag_Live_AP",
+			"ZDN_36rnd_762x51_MoritaMag_Live_TAP"
 		};
 	};
 };

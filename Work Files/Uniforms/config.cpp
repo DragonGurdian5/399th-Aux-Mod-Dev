@@ -3529,6 +3529,8 @@ class CfgWeapons
 		{
 			"Uniforms\data\helmets\ZDN_399_Camo_M3_base_co.paa"
 		};
+		ace_hearing_protection = 1.00; // Protection against Deafening
+		ace_hearing_lowerVolume = 0.60; // Lowers Volume with Helmet On
 	};
   	class ZDN_399_Helmet_Custom_One: JMSST_troops_M3_helmet
 	{
@@ -3546,6 +3548,8 @@ class CfgWeapons
 		{
 			"Uniforms\data\helmets\ZDN_399_Custom_Helmet_Version_1.paa"
 		};
+		ace_hearing_protection = 1.00; // Protection against Deafening
+		ace_hearing_lowerVolume = 0.60; // Lowers Volume with Helmet On
 	};
   	class ZDN_399_Helmet_Custom_Two: JMSST_troops_M3_helmet
 	{
@@ -3563,6 +3567,8 @@ class CfgWeapons
 		{
 			"Uniforms\data\helmets\ZDN_399_Custom_Helmet_Version_2.paa"
 		};
+		ace_hearing_protection = 1.00; // Protection against Deafening
+		ace_hearing_lowerVolume = 0.60; // Lowers Volume with Helmet On
 	};
   	class ZDN_399_Helmet_Custom_Three: JMSST_troops_M3_helmet
 	{
@@ -3580,6 +3586,8 @@ class CfgWeapons
 		{
 			"Uniforms\data\helmets\ZDN_399_Custom_Helmet_Version_3.paa"
 		};
+		ace_hearing_protection = 1.00; // Protection against Deafening
+		ace_hearing_lowerVolume = 0.60; // Lowers Volume with Helmet On
 	};
   	class ZDN_399_Helmet_Medic_Base: JMSST_troops_M3_helmet
 	{
@@ -3597,6 +3605,8 @@ class CfgWeapons
 		{
 			"Uniforms\data\helmets\ZDN_399_Medical_Helmet.paa"
 		};
+		ace_hearing_protection = 1.00; // Protection against Deafening
+		ace_hearing_lowerVolume = 0.60; // Lowers Volume with Helmet On
 	};
   	class ZDN_399_Helmet_Medic_Custom_One: JMSST_troops_M3_helmet
 	{
@@ -3614,6 +3624,8 @@ class CfgWeapons
 		{
 			"Uniforms\data\helmets\ZDN_399_Medical_Helmet_Custom.paa"
 		};
+		ace_hearing_protection = 1.00; // Protection against Deafening
+		ace_hearing_lowerVolume = 0.60; // Lowers Volume with Helmet On
 	};
   	class ZDN_399_Helmet_Medic_Custom_Two: JMSST_troops_M3_helmet
 	{
@@ -3631,6 +3643,8 @@ class CfgWeapons
 		{
 			"Uniforms\data\helmets\ZDN_399_Medical_Helmet_Custom_2.paa"
 		};
+		ace_hearing_protection = 1.00; // Protection against Deafening
+		ace_hearing_lowerVolume = 0.60; // Lowers Volume with Helmet On
 	};
   	class ZDN_399_Helmet_Medic_Custom_Three: JMSST_troops_M3_helmet
 	{
@@ -3648,6 +3662,8 @@ class CfgWeapons
 		{
 			"Uniforms\data\helmets\ZDN_399_Medical_Helmet_Custom_3.paa"
 		};
+		ace_hearing_protection = 1.00; // Protection against Deafening
+		ace_hearing_lowerVolume = 0.60; // Lowers Volume with Helmet On
 	};
   	class ZDN_399_Helmet_Engineer: JMSST_troops_M3_helmet
 	{
@@ -3665,6 +3681,8 @@ class CfgWeapons
 		{
 			"Uniforms\data\helmets\ZDN_3999_Engineer.paa"
 		};
+		ace_hearing_protection = 1.00; // Protection against Deafening
+		ace_hearing_lowerVolume = 0.60; // Lowers Volume with Helmet On
 	};
   	class ZDN_399_Helmet_Engineer_Custom: JMSST_troops_M3_helmet
 	{
@@ -3682,6 +3700,8 @@ class CfgWeapons
 		{
 			"Uniforms\data\helmets\ZDN_3999_Eng_Custom_1.paa"
 		};
+		ace_hearing_protection = 1.00; // Protection against Deafening
+		ace_hearing_lowerVolume = 0.60; // Lowers Volume with Helmet On
 	};
 
 	class ZDN_399_Helmet_Fleet_Base: JMSST_troops_M3air_helmet
@@ -3702,6 +3722,8 @@ class CfgWeapons
 			"\JMSST_troops\helmets\data\M3_fleet_co.paa",
 			"Uniforms\data\helmets\2bw_helm_black_co.paa"
 		};
+		ace_hearing_protection = 1.00; // Protection against Deafening
+		ace_hearing_lowerVolume = 0.70; // Lowers Volume with Helmet On
 	};
 
   	class ZDN_399_Cap: JMSST_troops_cap
