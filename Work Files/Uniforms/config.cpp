@@ -97,6 +97,39 @@ class CfgPatches
 			"ZDN_399_Uniform_Engineer_MasterSergeant",
 			"ZDN_399_Uniform_Engineer_SergeantMajor",
 			"ZDN_399_Uniform_Engineer_Lieutenant",
+			"ZDN_399_Vest_Base",
+			"ZDN_399_Vest_Command",
+			"ZDN_399_Vest_EngFull",
+			"ZDN_399_Vest_EngStripe",
+			"ZDN_399_Vest_Medic",
+			"ZDN_399_Vest_Fleet"
+			"ZDN_399_Vest_Troop_Base",
+			"ZDN_399_Vest_Troop_Command",
+			"ZDN_399_Vest_Troop_EngFull",
+			"ZDN_399_Vest_Troop_EngStripe",
+			"ZDN_399_Vest_Troop_Medic",
+			"ZDN_399_Vest_Troop_Fleet"
+			"ZDN_399_Vest_Troop_Two_Troop_Base",
+			"ZDN_399_Vest_Troop_Two_Troop_Command",
+			"ZDN_399_Vest_Troop_Two_Troop_EngFull",
+			"ZDN_399_Vest_Troop_Two_Troop_EngStripe",
+			"ZDN_399_Vest_Troop_Two_Troop_Medic",
+			"ZDN_399_Vest_Troop_Two_Troop_Fleet",
+			"ZDN_399_Vest_Troop_Bandolier_Command",
+			"ZDN_399_Vest_Troop_Grenadier_Base"
+			"ZDN_399_Helmet_Base",
+			"ZDN_399_Helmet_Custom_One",
+			"ZDN_399_Helmet_Custom_Two",
+			"ZDN_399_Helmet_Custom_Three",
+			"ZDN_399_Helmet_Medic_Base",
+			"ZDN_399_Helmet_Medic_Custom_One",
+			"ZDN_399_Helmet_Medic_Custom_Two",
+			"ZDN_399_Helmet_Medic_Custom_Three",
+			"ZDN_399_Helmet_Engineer",
+			"ZDN_399_Helmet_Engineer_Custom",
+			"ZDN_399_Helmet_Fleet_Base",
+			"ZDN_399_Cap",
+			"ZDN_399_Medic_Cap"
 		};
 	};
 };
