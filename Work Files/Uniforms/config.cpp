@@ -102,13 +102,13 @@ class CfgPatches
 			"ZDN_399_Vest_EngFull",
 			"ZDN_399_Vest_EngStripe",
 			"ZDN_399_Vest_Medic",
-			"ZDN_399_Vest_Fleet"
+			"ZDN_399_Vest_Fleet",
 			"ZDN_399_Vest_Troop_Base",
 			"ZDN_399_Vest_Troop_Command",
 			"ZDN_399_Vest_Troop_EngFull",
 			"ZDN_399_Vest_Troop_EngStripe",
 			"ZDN_399_Vest_Troop_Medic",
-			"ZDN_399_Vest_Troop_Fleet"
+			"ZDN_399_Vest_Troop_Fleet",
 			"ZDN_399_Vest_Troop_Two_Troop_Base",
 			"ZDN_399_Vest_Troop_Two_Troop_Command",
 			"ZDN_399_Vest_Troop_Two_Troop_EngFull",
@@ -116,7 +116,7 @@ class CfgPatches
 			"ZDN_399_Vest_Troop_Two_Troop_Medic",
 			"ZDN_399_Vest_Troop_Two_Troop_Fleet",
 			"ZDN_399_Vest_Troop_Bandolier_Command",
-			"ZDN_399_Vest_Troop_Grenadier_Base"
+			"ZDN_399_Vest_Troop_Grenadier_Base",
 			"ZDN_399_Helmet_Base",
 			"ZDN_399_Helmet_Custom_One",
 			"ZDN_399_Helmet_Custom_Two",
