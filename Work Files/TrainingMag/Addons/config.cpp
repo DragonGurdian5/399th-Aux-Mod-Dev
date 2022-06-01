@@ -16,7 +16,7 @@ class CfgPatches
 			"ZDN_75rnd_762x51_MoritaMag_Training",
 			"ZDN_75rnd_762x51_MoritaMag_Rubber",
 			"ZDN_75rnd_762x51_MoritaMag_Live",
-			"ZDN_30rnd_762x51_MoritaMag_Live_AP",
+			"ZDN_36rnd_762x51_MoritaMag_Live_AP",
 			"ZDN_36rnd_762x51_MoritaMag_Live_TAP",
 			"ZDN_75rnd_762x51_MoritaMag_Live_Tracer"
 		};
@@ -115,7 +115,7 @@ class cfgWeapons
 			"ZDN_75rnd_762x51_MoritaMag_Training",
 			"ZDN_75rnd_762x51_MoritaMag_Rubber",
 			"ZDN_75rnd_762x51_MoritaMag_Live",
-			"ZDN_30rnd_762x51_MoritaMag_Live_AP",
+			"ZDN_36rnd_762x51_MoritaMag_Live_AP",
 			"ZDN_36rnd_762x51_MoritaMag_Live_TAP"
 		};
 	};

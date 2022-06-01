@@ -3709,7 +3709,7 @@ class CfgWeapons
 		author="Jmax (Originally), Zaigan (Retexture)";
 		weaponPoolAvailable = 1;
 		scope=2;
-		displayName="[399th MI] Fleet Helmet (Airtight) (Test)";
+		displayName="[399th MI] Fleet Helmet (Airtight)";
 		picture="\JMSST_troops\data\ico\ico_h_M3al.paa";
 		model="JMSST_troops\helmets\M3helmet_air.p3d";
 		hiddenSelections[]=
