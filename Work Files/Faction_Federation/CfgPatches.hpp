@@ -26,7 +26,7 @@ class CfgPatches {
             "tfar_core",
             "cba_xeh",
             "A3_Characters_F_Orange",
-            "JMSST_gr_veh",
+            "JMSST_veh_gr",
             "A3_Soft_F_Exp_LSV_01",
             "A3_Soft_F",
             "A3_Soft_F_Gamma_Hatchback_01",
