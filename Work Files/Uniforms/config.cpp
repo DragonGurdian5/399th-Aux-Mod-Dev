@@ -2611,7 +2611,7 @@ class CfgWeapons
 		scope=2;
 		side=3;
 		armor=2;
-		displayName="[399th MI] Infantry Vest (Basic) (Troop)";
+		displayName="[399th MI] Infantry Vest (Troop)";
 		picture="\JMSST_troops\data\ico\ico_v_Agrade_ca.paa";
 		model="\JMSST_troops\vests\Agrade_troop.p3d";
 		hiddenSelections[]=

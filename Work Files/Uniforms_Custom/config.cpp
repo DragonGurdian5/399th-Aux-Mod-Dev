@@ -612,4 +612,21 @@ class CfgWeapons
 			};
 		};
 	};
+
+	// ########################################################
+	// ######################## HELMET ########################
+	// ########################################################	
+
+	class ZDN_399_Helmet_Custom_Krevan: JMSST_troops_M3_helmet
+	{
+		displayName 		= "[399th MI][C] Medic Helmet (Krevan)"
+		hiddenSelections[]  = 
+		{
+			"Camo1"
+		};
+		hiddenSelectionsTextures[] =
+		{
+			"Uniforms_Custom\data\helmets\ZDN_399_M3_Helmet_Medic_Krevan.paa"
+		};
+	};
 };
