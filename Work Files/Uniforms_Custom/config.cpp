@@ -617,6 +617,8 @@ class CfgWeapons
 	// ######################## HELMET ########################
 	// ########################################################	
 
+	class JMSST_troops_M3_helmet;
+
 	class ZDN_399_Helmet_Custom_Krevan: JMSST_troops_M3_helmet
 	{
 		displayName 		= "[399th MI][C] Medic Helmet (Krevan)"

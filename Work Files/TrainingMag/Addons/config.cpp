@@ -88,6 +88,7 @@ class CfgMagazines
 class cfgWeapons
 {
 	class JMSST_Rifle_Base_F_Base; // you can find this by equipping the gun you want to add the magazine to into your hands, then running this: "configname (inheritsFrom (configfile >> "cfgweapons" >> (currentWeapon player)));" and pasting the debug result here
+	
 	class JMSST_mk1Rifle: JMSST_Rifle_Base_F_Base // the gun classname that you want to add the magazine to, followed by the class you got above after the colon. You can run: "_weapon = copyToClipboard currentWeapon player" whilst holding it in your hands to get this
 	{
 		scope = 2;
@@ -95,7 +96,8 @@ class cfgWeapons
 			"ZDN_75rnd_762x51_MoritaMag_Training",
 			"ZDN_75rnd_762x51_MoritaMag_Rubber",
 			"ZDN_75rnd_762x51_MoritaMag_Live",
-			"ZDN_75rnd_762x51_MoritaMag_Live_Tracer"
+			"ZDN_75rnd_762x51_MoritaMag_Live_Tracer",
+			"JMSST_75Rnd_762x51_MoritaMag"
 		};
 	};
 	class JMSST_mk1CRifle: JMSST_Rifle_Base_F_Base
@@ -105,7 +107,8 @@ class cfgWeapons
 			"ZDN_75rnd_762x51_MoritaMag_Training",
 			"ZDN_75rnd_762x51_MoritaMag_Rubber",
 			"ZDN_75rnd_762x51_MoritaMag_Live",
-			"ZDN_75rnd_762x51_MoritaMag_Live_Tracer"
+			"ZDN_75rnd_762x51_MoritaMag_Live_Tracer",
+			"JMSST_75Rnd_762x51_MoritaMag"
 		};
 	};
 	class JMSST_mk1dmrRifle: JMSST_Rifle_Base_F_Base
@@ -116,7 +119,8 @@ class cfgWeapons
 			"ZDN_75rnd_762x51_MoritaMag_Rubber",
 			"ZDN_75rnd_762x51_MoritaMag_Live",
 			"ZDN_36rnd_762x51_MoritaMag_Live_AP",
-			"ZDN_36rnd_762x51_MoritaMag_Live_TAP"
+			"ZDN_36rnd_762x51_MoritaMag_Live_TAP",
+			"JMSST_75Rnd_762x51_MoritaMag"
 		};
 	};
 };
